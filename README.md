@@ -1,45 +1,57 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Bilingual Boys
+User Centric Frontend Development Milestone Project.
 
-Welcome USER_NAME,
+This website is the go-to site for any Thai family thinking of moving to the UK. It provides a realistic and up-to-date view
+of what life in the UK is like for Thai families, what the visa requirements and procedures are and also essential survival 
+English language help.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+While there are a seemingly endless supply of English teaching resources flooding the internet, as well as a plethora of UK 
+immigration services, the USP of this website is that it combines both of these from the perspective of a Thai/English family 
+which has first-hand experience of the whole process. Being both in Thai and English, it is accessible to both Thai and English
+speakers alike.
 
-## Gitpod Reminders
+## UX
+**Strategy**
+User needs:  visa/immigration advice, basic English language tips/help, general interest in life in the UK
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Having charted various opportunities/problems with associated perceived values of importance and viability, I decided that 
+the website should focus on three main areas: Visa advice, 'survival' English lessons and a gallery giving a window to 
+family life in the UK.
+With the website being aimed at Thai/English families, it should have to text options: Thai and English.
 
-`python3 -m http.server`
+Business objectives: make money through sales of English lessons, 
 
-A blue button should appear to click: *Make Public*,
+**Scope**
+User Stories:
+1. As someone thinking of moving to the UK, I want to see what life can be like so that I can make a better informed decision.
+1. As someone thinking of moving to the UK, I want tips on the immigration process so that I can budget correctly and save time on paperwork.
+1. As a Thai person living in the UK who struggles with English, I want help with the language so that my everyday life is improved.
+1. As someone who has recently moved to the UK with children, I want an idea of what the UK is like for young children so that I can plan activities for them and make their lives more fulfilling.
+1. As a Thai person living in Thailand who want to help my children with their English, I want language help specific to parents with children so that they progress quicker at school and have more opportunities later in life. 
+1. As an interested observer, I want to be able to get the latest updates on social media so I can get the latest news and photos.
 
-Another blue button should appear to click: *Open Browser*.
+**Structure**
+To make sure the content/functionality is intuitive to navigate, I maintained consistency throughout the different pages 
+by using the same layout/structure (landing page sections matched the order of menu items) and header and footer elements.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+On the landing page, I used content hinting so that users would be encouraged to scroll further down the page.
 
-A blue button should appear to click: *Make Public*,
+**Skeleton**
+The key reasoning behind the design of the landing page was to disclose information progressively by giving snippets of what 
+lay on other pages.  By using icons and breaking it into three main sections which mirror the three main user/business needs,
+this also minimized cognitive overload.
 
-Another blue button should appear to click: *Open Browser*.
+(wireframes)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Surface**
+The fonts were chosen to tie in with a young family feel, while at the same time maintaining a modern tone.  The images chosen 
+for the parallax scrolling (which also match the pages they navigate to) wanted to maintain the family feel and also to help 
+the user picture themselves living in the UK.
 
-## Updates Since The Instructional Video
+## Technologies Employed
+* HTML
+* CSS
+* JavaScript
+* Github/Gitpod
+* BootstrapCDN (Bootstrap 4)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
