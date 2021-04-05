@@ -15,17 +15,16 @@
     <!--navbar-->
     <div class="container-fluid navalert-container">
         <nav id="navbar" class="navbar navbar-dark navbar-expand-sm">
-            <div class="d-none d-sm-block">
-                <img src="assets/images/bb-logo.png" width="50" height="50">
-            </div>
-            <a href="/" class="navbar-brand">Bilingual Boys</a>
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/bb-logo.png" width="40" height="40" alt="">
+            </a>
 
-            <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav mr-auto">
                     <li class="active nav-item ml-2"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="/about">About</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="/about">Visas</a></li>
@@ -33,19 +32,24 @@
                     <li class="nav-item ml-2"><a class="nav-link" href="/about">Gallery</a></li>
                 </ul>
             </div>
+            <div class="d-none d-sm-block">
+                <a class="nav-link" href="/about">
+                    <img src="assets/images/thai-flag.png" width="30" height="30" alt="">
+                </a>
+            </div>
         </nav>
     </div>
 
     <!--hero-->
     <section id="hero-outer">
         <div class="container-fluid hero-container">
-            <div class="opaque-overlay">&nbsp;</div>
+            <!-- <div class="opaque-overlay">&nbsp;</div> -->
             <div class="row">
                 <div class="col-4">
                     <section class="jumbotron text-center">
                         <h1 class="jumbotron-header">Bilingual Boys</h1>
-                        <p class="lead">Register today to get lifestyle and language advice for starting life in the UK with children.</p>
-                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#signUpModal">Register</button>
+                        <p class="lead">Thinking of moving to the UK? We have visa, language and lifestyle adivce to make your move easier!</p>
+                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#getModal">Get our free newsletter!</button>
                     </section>
                 </div>
             </div>
@@ -55,19 +59,58 @@
     
     
     <section>
-
+        <p>Starting a new life in the UK with your family can be a daunting prospect</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quos placeat nisi veritatis sapiente qui dolorem omnis! Praesentium eveniet at dolor ullam fugit est inventore provident, culpa ea quod doloribus!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quos placeat nisi veritatis sapiente qui dolorem omnis! Praesentium eveniet at dolor ullam fugit est inventore provident, culpa ea quod doloribus!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quos placeat nisi veritatis sapiente qui dolorem omnis! Praesentium eveniet at dolor ullam fugit est inventore provident, culpa ea quod doloribus!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quos placeat nisi veritatis sapiente qui dolorem omnis! Praesentium eveniet at dolor ullam fugit est inventore provident, culpa ea quod doloribus!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quos placeat nisi veritatis sapiente qui dolorem omnis! Praesentium eveniet at dolor ullam fugit est inventore provident, culpa ea quod doloribus!</p>
     </section>
 
     <!--footer-->
     <footer>
 
     </footer>
-    
+
+    <!--register-modal--> 
+    <div class="modal" tabindex="-1" role="dialog" id="getModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Regsiter with Bilingual Boys to get regular updates!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="first-name" class="form-control" id="first-name" placeholder="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="last-name" class="form-control" id="last-name" placeholder="last-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email-address">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
     <script type="text/javascript">
         var lastScrollTop = 0;
             navbar = document.getElementById("navbar");
-        window.addEventListener("scroll", function(){
+            window.addEventListener("scroll", function(){
             var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             if (scrollTop > lastScrollTop){
                 navbar.style.top="-100px";
