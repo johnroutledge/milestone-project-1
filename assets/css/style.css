@@ -4,7 +4,7 @@ body {
 }
 
 /*navbar*/
- 
+
 .navalert-container {
     position: fixed;
     top: 0;
@@ -50,8 +50,8 @@ body {
 .hero-container {
     height: 550px;
     width: 100%;
-    background: url("../images/hero1.jpg") no-repeat right center; 
-    
+    background: url("../images/hero1.jpg") no-repeat right center fixed;
+
 
     /* animation-name: hero-zoom;
     animation-duration: 5s;
@@ -66,7 +66,7 @@ body {
     height: 550px;
     width: 100%;
     overflow: hidden;
-   
+
 }
 
 @keyframes hero-zoom {
@@ -83,9 +83,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: inherit;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.2);
 
 }
 
@@ -115,3 +115,78 @@ body {
 
 }
 
+/* info-section */
+
+#info-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;    
+    text-align: center;
+}
+
+#info-section p {
+    font-family: 'Open Sans', cursive;
+}
+
+
+/* parallax */
+
+#parallax-image {
+    background: url("../images/parallax.jpg") no-repeat bottom right fixed;
+    height: 500px;
+    margin-bottom: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*resources*/
+
+.resource-container {
+
+    padding-top: 20px;
+}
+
+
+.resources h2 {
+    font-weight: bold;
+}
+
+.resource {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.resource i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+/* .resource .btn {
+    background-color: white;
+    border-color: #36454f;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #36454f;
+} */
+
+
+.resource p {
+    font-family: 'Open Sans', cursive;
+}
+
+
+/* footer */
+
+#footer {
+    background-color: #36454f;
+    font-family: 'Open Sans', cursive;
+    color: white;
+}
