@@ -86,7 +86,7 @@ body {
     left: 0;
     height: inherit;
     width: 100%;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
 
 }
 
@@ -240,4 +240,73 @@ body {
 
 .social-links i:hover {
     color: grey;
+}
+
+/* gallery page */
+
+#images {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+
+}
+
+#images img {
+    width: 100%;
+}
+
+
+/* fullyworldwebtutorials */
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.gallery-row .gallery-column {
+    flex: 33.33%;
+    width: auto;
+    overflow: hidden;
+    padding: 0 1px;
+    height: 100%;
+
+} 
+
+.gallery-row .gallery-column img {
+    margin-top: 1px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    filter: grayscale(1) brightness(0.75);
+    transition: 0.3s linear;
+}
+
+.gallery-row .gallery-column img:hover {
+    filter: grayscale(0) brightness(1);
+}
+
+/* about-page */
+
+.about-container {
+    height: 550px;
+    width: 100%;
+    background: url("../images/about.jpg") no-repeat right center fixed;
+
+
+    /* animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; */
+}
+
+.about-container p {
+    font-family: 'Open Sans', cursive;
+}
+
+.about-outer {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+
 }
