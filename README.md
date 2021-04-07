@@ -55,3 +55,8 @@ the user picture themselves living in the UK.
 * Github/Gitpod
 * BootstrapCDN (Bootstrap 4)
 
+## Features
+
+## Future Features to Implement
+* Add a live chat option so that people can get answers to questions quickly.
+* Payment system for English language lessons to enable business objectives to be met.
