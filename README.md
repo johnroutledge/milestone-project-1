@@ -1,9 +1,16 @@
 # Bilingual Boys
 User Centric Frontend Development Milestone Project.
 
-This website is the go-to site for any Thai family thinking of moving to the UK. It provides a realistic and up-to-date view
-of what life in the UK is like for Thai families, what the visa requirements and procedures are and also essential survival 
-English language help.
+There is currently a huge interest in Thailand for parents to advance their children's English ability by teaching them themselves. 
+Even though children study English in school from a young age, the quality of lessons is often lacking. With this in mind, I have 
+developed a website which addresses these needs.
+
+Secondly, there is has been a sharp increase in the rate of mixed-race (Thai/non-Thai) marriages.  This, in turn, has led to an 
+increase in couples/families emigrating to the UK from Thailand.
+
+This website is the go-to site for any Thai (or Thai/British) family thinking of moving to the UK. It provides a realistic and up-to-date view
+of what life in the UK is like for Thai families, what the visa requirements and procedures are and also English language lessons for both 
+parents and children alike.
 
 While there are a seemingly endless supply of English teaching resources flooding the internet, as well as a plethora of UK 
 immigration services, the USP of this website is that it combines both of these from the perspective of a Thai/English family 
@@ -19,7 +26,7 @@ the website should focus on three main areas: Visa advice, 'survival' English le
 family life in the UK.
 With the website being aimed at Thai/English families, it should have to text options: Thai and English.
 
-Business objectives: make money through sales of English lessons, 
+Business objectives: make money through sales of English lessons, primarily to the Thai market. 
 
 **Scope**
 User Stories:
@@ -41,6 +48,8 @@ The key reasoning behind the design of the landing page was to disclose informat
 lay on other pages.  By using icons and breaking it into three main sections which mirror the three main user/business needs,
 this also minimized cognitive overload.
 
+By being consistent with the design and simplicity of all pages, it is both predictable and intuitive, and therefore increases the overall UX.
+
 (wireframes)
 
 **Surface**
@@ -56,7 +65,19 @@ the user picture themselves living in the UK.
 * BootstrapCDN (Bootstrap 4)
 
 ## Features
+**Implemented**
+* The navbar hides/appears smoothly on scroll down/up (credits in the code) to give a modern feel and also to maximize the amount of screen real estate.
+* The navbar collapses to a burger menu on smaller screens to further increase the available screen area.
+* The website has both an English and Thai version.
+* The same footer appears on every page to maintain consitency and give quick access to relevant social media links.
+* All pages are genaraly laid out to conform to the F-shape which people usually scan a website (left-righ-left-down): hero image with 
+a jumbotron containing key imformation overlaid to the left, then more decriptive content at the bottom.
+* Jumbotrons contain clear, concise information to avoid cognitive overload.
+* The home page has a clear call to action button placed stragically below rhetorical questions in order to encourage users to subscribe.
+* The home page incorporates content hinting by partially revealing an element just above the fold.
+* The home page uses a parallax effect to continue the modern feel.
+* The gallery page incorporates a lightbox design (credits in the code) to keep the modern feel.
 
-## Future Features to Implement
+**Future Features to Implement**
 * Add a live chat option so that people can get answers to questions quickly.
 * Payment system for English language lessons to enable business objectives to be met.
