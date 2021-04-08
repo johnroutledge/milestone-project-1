@@ -98,13 +98,17 @@ body {
     margin-left: 50px;
     background-color: rgba(0,0,0,0.5);
     color: white;
-    font-weight: bold;
+    font-family: 'Open Sans', cursive;
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 24px;
 }
 
 .jumbotron-header {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+    font-family: 'Neucha', cursive;
 }
 
 /*buttons*/
@@ -257,7 +261,7 @@ body {
 }
 
 
-/* fullyworldwebtutorials */
+/* credit to: fullyworldwebtutorials */
 .gallery-row {
     display: flex;
     flex-wrap: wrap;
