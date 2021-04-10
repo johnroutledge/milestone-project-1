@@ -97,7 +97,8 @@ body {
 .jumbotron {
     margin-top: 100px;
     margin-left: 50px;
-    background-color: rgba(0,0,0,0.5);
+    margin-right: 50px;
+    background-color: rgba(0,0,0,0.7);
     color: white;
     font-family: 'Open Sans', cursive;
     font-size: 18px;
@@ -256,7 +257,7 @@ body {
     font-family: 'Open Sans', cursive;
     color: white;
     text-align: center;
-    height: 140px;
+    height: 120px;
 }
 
 
@@ -351,3 +352,30 @@ body {
     overflow: hidden;
 
 }
+
+/* language-page */
+
+.navspacer {
+    padding-top: 66px;
+}
+
+.page-desc {
+    background: url("../images/hero1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 480px;
+    
+}
+
+.language-item {
+    height: 160px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.language-item p {
+    font-family: 'Open Sans', cursive;
+
+}
+
