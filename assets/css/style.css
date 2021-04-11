@@ -1,5 +1,5 @@
 body {
-    font-family: 'Neucha', cursive;
+    font-family: 'Schoolbell', cursive;
     overflow-x: hidden;
     text-decoration: none;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-nav {
-    font-family: 'Open Sans', cursive;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .hero-container p {
-    font-family: 'Open Sans', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero-outer {
@@ -100,26 +100,30 @@ body {
     margin-right: 50px;
     background-color: rgba(0,0,0,0.7);
     color: white;
-    font-family: 'Open Sans', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     padding-top: 20px;
     line-height: 24px;
 }
 
 .jumbotron-header {
+    /* text-transform: uppercase; */
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    font-family: 'Neucha', cursive;
+    font-family: 'Schoolbell', cursive;
 }
 
 /*buttons*/
 
 .btn-outline-secondary {
-    color: white;
-    border-color: white;
-    font-family: 'Open Sans', cursive;
-
+    vertical-align: top;
+    margin-top: 5px;
+    background-color: white;
+    color: #36454f;
+    border-color: rgb(6, 242, 250);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 /* info-section */
@@ -133,7 +137,7 @@ body {
 }
 
 #info-section p {
-    font-family: 'Open Sans', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -182,7 +186,7 @@ body {
     margin-left: 50px;
     background-color: rgba(0,0,0,0.5);
     color: white;
-    font-family: 'Open Sans', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     padding-top: 20px;
     line-height: 24px;
@@ -192,7 +196,7 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    font-family: 'Neucha', cursive;
+    font-family: 'Schoolbell', cursive;
 }
 
 /*resources*/
@@ -246,19 +250,41 @@ body {
 
 
 .resource p {
-    font-family: 'Open Sans', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 /* footer */
 
 #footer {
-    background-color: #36454f;
-    font-family: 'Open Sans', cursive;
+    background-color: #313335;
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-align: center;
-    height: 120px;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
+#footer-register{
+    text-align: center;
+}
+
+#footer-copyright{
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+/* .navbar-bottom {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
 
 
 
@@ -268,10 +294,11 @@ body {
 } */
 
 .social-links i {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 50px;
-    padding-left: 10px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+    font-size: 30px;
     
     color: #fafafa;
     transition: all 0.35s ease-in-out;
@@ -343,7 +370,7 @@ body {
 }
 
 .about-container p {
-    font-family: 'Open Sans', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about-outer {
@@ -375,7 +402,16 @@ body {
 }
 
 .language-item p {
-    font-family: 'Open Sans', cursive;
+    font-family: 'Roboto', sans-serif;
 
 }
 
+/* register-modal */
+
+.modal {
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-header {
+    font-family: 'Schoolbell', cursive;
+}

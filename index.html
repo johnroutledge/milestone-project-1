@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Nanum+Pen+Script&family=Roboto&family=Schoolbell&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Document</title>
 </head>
@@ -15,14 +17,14 @@
     <div class="container-fluid navalert-container">
         <nav id="navbar" class="navbar navbar-dark navbar-expand-sm">
             <a class="navbar-brand" href="/index.html">
-                <img src="assets/images/bb-logo.png" width="40" height="40" alt="">
+                <img src="assets/images/bb-logo.png" width="40" height="40" alt=""> Bilingual Boys
             </a>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="active nav-item ml-2"><a class="nav-link" href="/index.html">Home</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="/about.html">About</a></li>
@@ -53,9 +55,9 @@
                                 <li>Want to help your kids with their English?</li>
                                 <li>Or maybe you just want a glimpse of life in the UK?</li>
                             </ul>
-                        <br>
+                        <!-- <br>
                         <p>If the answer to any of these questions is 'yes', then...</p>
-                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#getModal">Click here to register for our free newsletter!</button>
+                        <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#getModal">Click here to register for our free newsletter!</button> -->
                     </section>
                 </div>
             </div>
@@ -65,7 +67,7 @@
     
     <!--info-->
     <section id="info-section">
-        <h3>Starting a new life in the UK with your family can be a daunting prospect.</h3>
+        <h3>Starting a new life in the UK with children can be a daunting prospect.</h3>
         <p>That's why we have put a website together with everything you need in one place. If you're not sure of the visa applicaiont prcoess, we have links to all the answers.</p>
         <p>If you're worried about being able to understand what people say or making yourself understood, we have the resources to get you up to speed quickly.</p>
         <p>It might be that you just want to get an idea of what life can be like in the UK for you and your family. Well, you have come to the right place at Bilingual Boys!</p>
@@ -134,15 +136,28 @@
     </div>
 
     <!--footer-->
+
+    <!-- <div class="navbar-bottom">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div> -->
+
     <footer>
         <section id="footer">
-            
-            <div class="col-xs-12 col-sm-12 social-links">
-                <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a>
+            <div>
+                <span id="footer-copyright">
+                    &#169 2021 Bilingual Boys   
+                </span>
+                <span id="footer-register">
+                    <button class="btn btn-outline-secondary rounded-0" data-toggle="modal" data-target="#getModal">REGISTER for FREE</button>
+                </span>
+                <span class="col-xs-12 col-sm-12 social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                </span>
             </div>
-            <div id="copyright">&#169 2021 John Routledge</div>
         </section>
     </footer>
 
@@ -151,7 +166,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Regsiter with Bilingual Boys to get regular updates!</h5>
+                    <h6 class="modal-title">Regsiter with Bilingual Boys for regular updates!</h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -160,15 +175,15 @@
                     <form>
                     <div class="form-group">
                         <label for="first-name">First name</label>
-                        <input type="first-name" class="form-control" id="first-name" placeholder="first-name">
+                        <input type="first-name" class="form-control" id="first-name" placeholder="first name">
                     </div>
                     <div class="form-group">
                         <label for="last-name">Last name</label>
-                        <input type="last-name" class="form-control" id="last-name" placeholder="last-name">
+                        <input type="last-name" class="form-control" id="last-name" placeholder="last name">
                     </div>
                     <div class="form-group">
                         <label for="email-address">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="email address">
                     </div>
                     <button type="submit" class="btn btn-secondary">Submit</button>
                     </form>
