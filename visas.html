@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Nanum+Pen+Script&family=Roboto&family=Schoolbell&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Document</title>
 </head>
@@ -15,18 +15,18 @@
     <div class="container-fluid navalert-container">
         <nav id="navbar" class="navbar navbar-dark navbar-expand-sm">
             <a class="navbar-brand" href="/index.html">
-                <img src="assets/images/bb-logo.png" width="40" height="40" alt="">
+                <img src="assets/images/bb-logo.png" width="40" height="40" alt=""> Bilingual Boys
             </a>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item ml-2"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item ml-2"><a class="nav-link" href="/index.html">Home</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="/about.html">About</a></li>
-                    <li class="nav-item ml-2"><a class="nav-link" href="/visas.html">Visas</a></li>
+                    <li class="active nav-item ml-2"><a class="nav-link" href="/visas.html">Visas</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="/language.html">Language</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="/gallery.html">Gallery</a></li>
                 </ul>
@@ -39,16 +39,73 @@
         </nav>
     </div>
 
+    <!--visas-->
+    <div class="navspacer"></div>
+    <div class="row no-gutters outer">
+        <div class="col-md-6 visa-page-desc">
+          
+        </div>
+        <div id="desc-overlay">
+            <h2><i class="fas fa-id-card"></i> Visa Help</h2>
+            <hr>
+            <p>Emigrating to the UK from countries outside of Europe, such as Thailand, can be a very complex and confusing process. 
+                To help you navigate your way through all the documentation, we have provided links to the key pages from the UK.GOV website.
+            </p>
+            <p>We add regular updates to the visa process as and when they occur, so be sure to check back with us regularly to get the latest help and tips for your 
+                visa application.
+            </p>
+            <p>If you want to make sure not to miss any vital visa information, just click the 'Register for Free' button at 
+                the bottom of the page. Then we can also keep you updated with our latest language lessons and also the latest in the lives 
+                of our Bilingual Boys!
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col visa-item">
+                    <h3><i class="fas fa-plane-departure"></i> Starting your visa journey</h3>
+                    <hr>
+                    <p>There are many things to consider before applying for your first visa. These include what type of visa you are eligible for and the costs involved.</p>    
+                </div>
+            </div>
+         
+            <div class="row">
+                <div class="col visa-item">
+                    <h3><i class="fas fa-list-ol"></i> The visa stages</h3>
+                    <hr>
+                    <p>There are three key stages to obtaining UK citizenship. This link elaborates on what those stages are and the timescales involved.</p>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col visa-item">
+                    <h3><i class="fas fa-procedures"></i> NHS Surcharge</h3>
+                    <hr>
+                    <p>Access to the halthcare system (the NHS) in the UK is free of charge to its citizens. Before you have stayed long enough to obtain UK citizenship, 
+                        a charge must be paid at each stage of the visa process to enable you access to this service.
+                    </p>    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
     <!--footer-->
     <footer>
         <section id="footer">
-            
-            <div class="col-xs-12 col-sm-12 social-links">
-                <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a>
+            <div>
+                <span id="footer-copyright">
+                    &#169 2021 Bilingual Boys   
+                </span>
+                <span id="footer-register">
+                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#getModal">Register for Free!</button>
+                </span>
+                <span class="col-xs-12 col-sm-12 social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                </span>
             </div>
-            <div id="copyright">&#169 2021 John Routledge</div>
         </section>
     </footer>
 
