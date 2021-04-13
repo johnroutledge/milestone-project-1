@@ -52,6 +52,58 @@ body {
 
 /*hero-image*/
 
+#index-hero-image{
+    height: 500px;
+    width: 100%;
+    background: url("../images/hero1.jpg") no-repeat right center fixed;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+#index-hero-text, #index-hero-text h2 {
+    color: #ffffff;
+}
+
+#index-hero-text {
+    
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    height: 350px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0,0,0,0.7);
+    top: 120px;
+    left: 40px;
+    position: absolute;
+
+}
+
+#index-hero-text h3 {
+    font-family: 'Schoolbell', cursive;
+}
+
 .hero-container {
     height: 550px;
     width: 100%;
@@ -62,27 +114,6 @@ body {
     animation-duration: 5s;
     animation-fill-mode: forwards; */
 }
-
-.hero-container p {
-    font-family: 'Roboto', sans-serif;
-}
-
-.hero-outer {
-    height: 550px;
-    width: 100%;
-    overflow: hidden;
-
-}
-
-/* @keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-} */
 
 .opaque-overlay {
     position: absolute;
@@ -135,8 +166,8 @@ body {
 #info-section {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     text-align: center;
 }
 
@@ -242,26 +273,17 @@ body {
     color: grey;
 }
 
-/* .resource .btn {
-    background-color: white;
-    border-color: #36454f;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #36454f;
-} */
-
-
 .resource p {
     font-family: 'Roboto', sans-serif;
 }
 
+.footer-spacer {
+    margin-bottom: 50px;
+}
 
 /* footer */
 
 #footer {
-    /* background-color: #313335; */
     background-color: #519bea;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -283,20 +305,6 @@ body {
     padding-left: 10px;
     padding-top: 12px;
 }
-/* .navbar-bottom {
-  background-color: #333;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-} */
-
-
-
-
-/* .social-links {
-    padding-bottom: 15px;
-} */
 
 .social-links i {
     float: right;
@@ -363,15 +371,58 @@ body {
 
 /* about-page */
 
+#about-hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#about-hero-image{
+    height: 600px;
+    width: 100%;
+    background: url("../images/a.jpg") no-repeat left;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+#about-hero-text, #about-hero-text h2 {
+    color: #ffffff;
+}
+
+#about-hero-text {
+    
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    height: 380px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0,0,0,0.8);
+    top: 120px;
+    left: 40px;
+    position: absolute;
+
+}
+
+#about-hero-text h3 {
+    font-family: 'Schoolbell', cursive;
+}
+
+#about-hero-text hr {
+    width: 60%;
+    margin: 20px 0;
+    border-color: #519bea;
+}
+
 .about-container {
     height: 550px;
     width: 100%;
-    background: url("../images/about.jpg") no-repeat right center fixed;
+    background: url("../images/b.jpg") no-repeat right center fixed;
 
-
-    /* animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
 }
 
 .about-container p {
@@ -389,11 +440,23 @@ body {
 
 .visa-page-desc {
 
-    background: url("../images/hero1.jpg");
+    background: url("../images/e.jpg") top;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 520px;
+
+}
+
+.visa-item {
+    height: 168px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.visa-item p {
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -413,22 +476,6 @@ body {
 
 }
 
-.visa-item {
-    height: 168px;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-
-}
-
-.visa-item p {
-    font-family: 'Roboto', sans-serif;
-
-}
-
-/* #outer {
-    position: absolute;
-} */
 
 #desc-overlay {
 
@@ -439,7 +486,7 @@ body {
     padding-left: 80px;
     padding-right: 80px;
     color: white;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.7);
     top: 0;
     left: 0;
     position: absolute;
@@ -447,8 +494,6 @@ body {
 
 #desc-overlay h2 {
     font-family: 'Schoolbell', cursive;
-
-    /* text-transform: uppercase; */
     letter-spacing: 4px;
 }
 
@@ -468,13 +513,13 @@ body {
 #desc-overlay hr {
     width: 60%;
     margin: 20px 0;
-    border-color: white;
+    border-color: #519bea;
 }
 
 hr {
-    /* border-top: 1px solid #777777; */
     width: 90%;
     margin: 2px 0;
+    
 }
 
 /* register-modal */

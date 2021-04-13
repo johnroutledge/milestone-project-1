@@ -1,5 +1,5 @@
 # Bilingual Boys
-User Centric Frontend Development Milestone Project.
+**User Centric Frontend Development Milestone Project**
 
 There is currently a huge interest in Thailand for parents to advance their children's English ability by teaching them themselves. 
 Even though children study English in school from a young age, the quality of lessons is often lacking. With this in mind, I have 
