@@ -19,9 +19,8 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    /* background-color: #313335 */
     background-color: #519bea;
-    /* background-color: rgba(0,0,0,0.75); */
+    
 }
 
 .navbar-nav {
@@ -169,6 +168,7 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     text-align: center;
+    background-color: #519bea;
 }
 
 #info-section p {
@@ -234,7 +234,45 @@ body {
     font-family: 'Schoolbell', cursive;
 }
 
+
+
+
 /*resources*/
+
+#resource-overlay {
+
+    font-family: 'Roboto', sans-serif;
+    
+    height: 580px;
+    padding-top: 140px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+#resource-overlay h3 {
+    font-family: 'Schoolbell', cursive;
+}
+
+#resource-overlay hr {
+    width: 60%;
+    margin: 20px 0;
+    border-color: #519bea;
+}
+
+.resource-desc {
+
+    background: url("../images/e.jpg") top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    position: absolute;
+}
 
 .resource-container {
 
@@ -530,4 +568,14 @@ hr {
 
 .modal-header {
     font-family: 'Schoolbell', cursive;
+}
+
+.modal .btn-secondary {
+    vertical-align: top;
+    margin-top: 5px;
+    background-color: #519bea;
+    color: white;
+    border-color: white;
+    font-family: 'Schoolbell', cursive;
+    font-size: 16px;    
 }
