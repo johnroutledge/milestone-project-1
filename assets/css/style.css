@@ -201,7 +201,7 @@ body {
     height: 550px;
     width: 100%;
     background: url("../images/parallax2.jpg") no-repeat left fixed;
-
+    padding: 0;
 
     /* animation-name: hero-zoom;
     animation-duration: 5s;
@@ -264,6 +264,19 @@ body {
     width: 60%;
     margin: 20px 0;
     border-color: #519bea;
+}
+
+.resource-item {
+    height: 168px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+
+.resource-item p {
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .resource-desc {
