@@ -17,6 +17,39 @@ immigration services, the USP of this website is that it combines both of these 
 which has first-hand experience of the whole process. Being both in Thai and English, it is accessible to both Thai and English
 speakers alike.
 
+The ideal customer for the website would be:
+* Thai
+* Has children
+* Looking to emigrate to the UK
+* Someone who wants to improve his/her/their children's English
+
+People visiting this website are looking for:
+* Guidance on the UK immigration process
+* Latest updates on UK visa guidelines
+* Help with their English
+* A real-life story of someone who succesfully has moved to the UK
+* An insight into UK family life
+
+Bilingual Boys is the ideal site for such people because:
+* It includes all of the above in one place
+* It has intuitive navigation and layout
+* It is both clear and concise in its layout and content
+* It leads them to register for the latest visa news
+
+***
+
+## Index – Table of Contents
+
+* [User Experience (UX)](#user-experience) 
+* [Features](#features)
+* [Designs](#designs)
+* [Technologies Employed](#technologies-employed)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Acknowledgements](#credit)
+
+***
+
 ## UX
 **Strategy**
 User needs:  visa/immigration advice, basic English language tips/help, general interest in life in the UK
@@ -53,9 +86,10 @@ By being consistent with the design and simplicity of all pages, it is both pred
 (wireframes)
 
 **Surface**
-The fonts were chosen to tie in with a young family feel, while at the same time maintaining a modern tone.  The images chosen 
+The 'Schoolbell' font was chosen to tie in with a young family feel, while the 'open sans' font was chosen to convey a modern and informative tone.  The images chosen 
 for the parallax scrolling (which also match the pages they navigate to) wanted to maintain the family feel and also to help 
-the user picture themselves living in the UK.
+the user picture themselves living in the UK.  The colour scheme was chosen as it fits in with the eponymous boys and is also considered a reliable and trustworthy colour
+which we want to reflect in the quality of the website's content.
 
 ## Technologies Employed
 * HTML
@@ -63,14 +97,15 @@ the user picture themselves living in the UK.
 * JavaScript
 * Github/Gitpod
 * BootstrapCDN (Bootstrap 4)
+* Google fonts
 
 ## Features
 **Implemented**
 * The navbar hides/appears smoothly on scroll down/up (credits in the code) to give a modern feel and also to maximize the amount of screen real estate.
 * The navbar collapses to a burger menu on smaller screens to further increase the available screen area.
-* The website has both an English and Thai version.
 * The same footer appears on every page to maintain consitency and give quick access to relevant social media links.
-* All pages are genaraly laid out to conform to the F-shape which people usually scan a website (left-righ-left-down): hero image with 
+* The footer also includes a centrally located call-to-action button which encourages people to register for free.
+* All pages are genarally laid out to conform to the F-shape which people usually scan a website (left-righ-left-down): hero image with 
 a jumbotron containing key imformation overlaid to the left, then more decriptive content at the bottom.
 * Jumbotrons contain clear, concise information to avoid cognitive overload.
 * The home page has a clear call to action button placed stragically below rhetorical questions in order to encourage users to subscribe.
@@ -79,5 +114,71 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 * The gallery page incorporates a lightbox design (credits in the code) to keep the modern feel.
 
 **Future Features to Implement**
+* A Thai version of the entire website accessible via a navbar language option.
 * Add a live chat option so that people can get answers to questions quickly.
 * Payment system for English language lessons to enable business objectives to be met.
+
+## Technologies Employed
+* HTML
+* CSS
+* JavaScript
+* Github/Gitpod
+* BootstrapCDN (Bootstrap 4)
+* Google fonts
+
+## Deployment 
+
+The project can be deployed by following these steps:
+
+1 Log into GitHub
+1 Click "Settings" in the menu above the Repository.
+1 Scroll down through the settings to the "GitHub Pages" Section.
+1 Underneath "Source", click the dropdown labelled "None" and then select "Master Branch".
+1 The page should refresh automatically and then deploy the website.
+1 If the page refuses to load, scroll down to "template" and select a template underneath "source". 
+1 Scroll back down to the section entitled "GitHub Pages" and the link to the deployed website should be available.
+
+
+### How to run this project locally
+
+To clone this project into Gitpod you will need:
+1. A Github account. [Create a Github account here](https://github.com/)
+2. Use the Chrome browser 
+
+Then follow these steps:
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+2. After installation, restart the browser
+3. Log into [Gitpod](https://gitpod.com) with your gitpod account.
+4. Navigate to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist)
+5. Click the green "Gitpod" button in the top right corner of the respository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
+
+To work on the project code within a local IDE such as VSCode, Pycharm etc:
+1. Follow this link to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open the terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
+
+
+## Credits
+
+### Content
+- All copy for the entire website (excluding links) was created by myself.
+- All of the English lessons files were created by my wife, Chonchanok Routledge.
+- All of the Bilingual Boys' sister social media sites (Facebook, Instagram and YouTube), were also set up by my wife, Chonchanok Routledge. 
+
+### Media
+- All photos used in the website were either taken by my wife, Chonchanok Routledge, or myself.
+
+### Code
+- Javascript for the scroll up/down navbar was taken from XXXXXXXXX
+- CSS code for the lightbox effect on the gallery page was taken from XXXXXXXXXXXXX
+- Matt Rudge for the basics behind the Bootstrap Grid and also collapsible navbar
+
+### Acknowledgements
+
+- To Brian Machiara, my Code Institute mentor, for giving me invaluable tips and insight throughout the whole process.
+- Of course to our twin boys, Milan and Ocean, for providing the inspiration to produce the website.
