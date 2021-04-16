@@ -42,7 +42,6 @@ Bilingual Boys is the ideal site for such people because:
 
 * [User Experience (UX)](#user-experience) 
 * [Features](#features)
-* [Designs](#designs)
 * [Technologies Employed](#technologies-employed)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -125,6 +124,16 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 * Github/Gitpod
 * BootstrapCDN (Bootstrap 4)
 * Google fonts
+
+
+## Testing
+
+| Test Label   |      Action      |  Expected Outcome |  Test Outcome  |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
 
 ## Deployment 
 
