@@ -128,7 +128,35 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 
 ## Deployment 
 
-The project can be deployed by following these steps:
+### How to run this project locally
+
+To clone this project into Gitpod you will need:
+* A Github account. [Create a Github account here](https://github.com/)
+* Use the Chrome browser 
+
+Then follow these steps:
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+1. After installation, restart your browser
+1. Log into your [Gitpod](https://gitpod.com) account.
+1. Navigate to the [Project GitHub repository](https://github.com/johnroutledge/milestone-project-1)
+1. Click the green "Gitpod" button located on the right of the respository
+1. This initiates a fresh gitpod workspace allowing you to work locally on the code.
+
+### Adding and Committing files
+
+Adding files to the Github repository is done as follows:
+
+Type the following into the command line:
+
+        git add .  
+        git commit -m "this is what I have done"
+        git push
+
+Using the '.' will add all files to the repository staging area. Single files are added using filepath names, ie: about.html or assets/images/hero.png
+Be clear and consistent with your commit comments - it's a good idea to use imperatives to explain your changes. 
+Pushing moves your work from the staging area to your repository.
+
+### The project can be deployed by following these steps:
 
 1 Log into GitHub
 1 Click "Settings" in the menu above the Repository.
@@ -138,29 +166,6 @@ The project can be deployed by following these steps:
 1 If the page refuses to load, scroll down to "template" and select a template underneath "source". 
 1 Scroll back down to the section entitled "GitHub Pages" and the link to the deployed website should be available.
 
-
-### How to run this project locally
-
-To clone this project into Gitpod you will need:
-1. A Github account. [Create a Github account here](https://github.com/)
-2. Use the Chrome browser 
-
-Then follow these steps:
-1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
-2. After installation, restart the browser
-3. Log into [Gitpod](https://gitpod.com) with your gitpod account.
-4. Navigate to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist)
-5. Click the green "Gitpod" button in the top right corner of the respository
-6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
-
-To work on the project code within a local IDE such as VSCode, Pycharm etc:
-1. Follow this link to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist).
-2. Under the repository name, click "Clone or download".
-3. In the Clone with HTTPs section, copy the clone URL for the repository. 
-4. In your local IDE open the terminal.
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type ```git clone```, and then paste the URL you copied in Step 3.
-7. Press Enter. Your local clone will be created.
 
 
 ## Credits
