@@ -579,18 +579,26 @@ hr {
 
 .modal {
     font-family: 'Open Sans', sans-serif;
+  
 }
+
 
 .modal-header {
     font-family: 'Schoolbell', cursive;
+    text-align: center;
 }
 
 .modal .btn-secondary {
     vertical-align: top;
     margin-top: 5px;
-    background-color: #519bea;
+    background-color: #047bfa;
     color: white;
     border-color: white;
     font-family: 'Schoolbell', cursive;
     font-size: 16px;    
+}
+
+.modal .btn-secondary:hover {
+    background-color: #519bea;
+    color: white;
 }
