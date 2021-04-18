@@ -90,10 +90,11 @@ body {
 
     font-family: 'Open Sans', sans-serif;
     width: 50%;
-    height: 350px;
+    /* height: 350px; */
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 40px;
     background-color: rgba(0,0,0,0.7);
     top: 100px;
     left: 0px;
@@ -243,11 +244,18 @@ body {
 
 /*resources*/
 
+.resource-outer {
+    /* height: 500px; */
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #resource-overlay {
 
     font-family: 'Open Sans', sans-serif;
 
-    height: 580px;
+    height: 504px;
     padding-top: 40px;
     padding-left: 80px;
     padding-right: 80px;
@@ -270,7 +278,7 @@ body {
 
 .resource-item {
     height: 168px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: white;
@@ -667,29 +675,61 @@ hr {
 
 /* media queries */
 
-@media screen and (max-width: 1393px) {
+@media screen and (max-width: 1360px) {
+    .hero-outer {
+        height: 460px;
+    }
+
     #index-hero-image {
-       background: url("../images/hero1.jpg") no-repeat center fixed;
+       background: url("../images/hero1.jpg") no-repeat top right fixed;
+       height: 460px;
     }
 
     #index-hero-text {
 
         font-family: 'Open Sans', sans-serif;
         width: 100%;
-        height: 1200px;
+        /* height: 340px; */
         /* margin: 0 auto; */
         top: 80px;
         text-align: center;
-                
+
     }
 
     #info-section {
-        padding-top: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
         text-align: center;
-       
+
+    }
+
+    #resource-overlay {
+
+        height: 504px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    #images{
+        column-count: 3;
+    }
+
+    .footer-spacer {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #images{
+        column-count: 2
+    }
+
+    .parallax-container{
+        height: 1100px;
     }
 }
 
