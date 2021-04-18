@@ -49,6 +49,8 @@ body {
     transition: 0.5s;
 }
 
+/*index page*/
+
 /*hero-image*/
 
 #index-hero-image{
@@ -377,117 +379,7 @@ body {
     color: grey;
 }
 
-/* gallery page */
 
-#images {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-
-}
-
-#images img {
-    width: 100%;
-}
-
-
-/* credit to: fullyworldwebtutorials */
-.gallery-row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-
-}
-
-.gallery-row .gallery-column {
-    flex: 33.33%;
-    width: auto;
-    overflow: hidden;
-    padding: 0 1px;
-    height: 100%;
-
-}
-
-.gallery-row .gallery-column img {
-    margin-top: 1px;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    filter: grayscale(1) brightness(0.75);
-    transition: 0.3s linear;
-}
-
-.gallery-row .gallery-column img:hover {
-    filter: grayscale(0) brightness(1);
-}
-
-/* about-page */
-
-#about-hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#about-hero-image{
-    height: 600px;
-    width: 100%;
-    background: url("../images/a.jpg") no-repeat left;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-
-#about-hero-text, #about-hero-text h2 {
-    color: #ffffff;
-}
-
-#about-hero-text {
-    
-    font-family: 'Open Sans', sans-serif;
-    width: 50%;
-    height: 380px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: rgba(0,0,0,0.8);
-    top: 120px;
-    left: 40px;
-    position: absolute;
-
-}
-
-#about-hero-text h3 {
-    font-family: 'Schoolbell', cursive;
-}
-
-#about-hero-text hr {
-    width: 60%;
-    margin: 20px 0;
-    border-color: #519bea;
-}
-
-.about-container {
-    height: 550px;
-    width: 100%;
-    background: url("../images/b.jpg") no-repeat right center fixed;
-
-}
-
-.about-container p {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.about-outer {
-    height: 550px;
-    width: 100%;
-    overflow: hidden;
-
-}
 
 /* visa-page */
 
@@ -574,6 +466,171 @@ hr {
     margin: 2px 0;
     
 }
+
+
+/* gallery page */
+
+#gallery-hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#gallery-hero-image{
+    height: 500px;
+    width: 100%;
+    background: url("../images/parallax.jpg") no-repeat top fixed;
+    /* position: relative; */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+#gallery-hero-text, #about-hero-text h2 {
+    color: #ffffff;
+}
+
+#gallery-hero-text {
+    
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0,0,0,0.8);
+    top: 120px;
+    left: 40px;
+    position: fixed;
+    
+}
+
+#gallery-hero-text h3 {
+    font-family: 'Schoolbell', cursive;
+}
+
+#gallery-hero-text hr {
+    width: 60%;
+    margin: 20px 0;
+    border-color: #519bea;
+}
+
+
+#images {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+
+}
+
+#images img {
+    width: 100%;
+}
+
+
+/* credit to: fullyworldwebtutorials */
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.gallery-row .gallery-column {
+    flex: 33.33%;
+    width: auto;
+    overflow: hidden;
+    padding: 0 1px;
+    height: 100%;
+
+}
+
+.gallery-row .gallery-column img {
+    margin-top: 1px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    filter: grayscale(1) brightness(0.75);
+    transition: 0.3s linear;
+}
+
+.gallery-row .gallery-column img:hover {
+    filter: grayscale(0) brightness(1);
+}
+
+
+
+/* about-page */
+
+#about-hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#about-hero-image{
+    height: 600px;
+    width: 100%;
+    background: url("../images/a.jpg") no-repeat left;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+#about-hero-text, #about-hero-text h2 {
+    color: #ffffff;
+}
+
+#about-hero-text {
+    
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    height: 380px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0,0,0,0.8);
+    top: 120px;
+    left: 40px;
+    position: absolute;
+
+}
+
+#about-hero-text h3 {
+    font-family: 'Schoolbell', cursive;
+}
+
+#about-hero-text hr {
+    width: 60%;
+    margin: 20px 0;
+    border-color: #519bea;
+}
+
+.about-container {
+    height: 550px;
+    width: 100%;
+    background: url("../images/b.jpg") no-repeat right center fixed;
+
+}
+
+.about-container p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-outer {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
 
 /* register-modal */
 
