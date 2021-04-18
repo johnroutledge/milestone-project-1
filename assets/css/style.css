@@ -20,7 +20,7 @@ body {
     border: 0;
     width: 100%;
     background-color: #519bea;
-    
+
 }
 
 .navbar-nav {
@@ -74,10 +74,10 @@ body {
 
 @keyframes hero-zoom {
     from{
-        transform: scale(1);
+        transform: scale(1.1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1);
     }
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 #index-hero-text {
-    
+
     font-family: 'Open Sans', sans-serif;
     width: 50%;
     height: 350px;
@@ -246,7 +246,7 @@ body {
 #resource-overlay {
 
     font-family: 'Open Sans', sans-serif;
-    
+
     height: 580px;
     padding-top: 40px;
     padding-left: 80px;
@@ -348,6 +348,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 99;
 }
 
 #footer-register{
@@ -464,7 +465,7 @@ body {
 hr {
     width: 90%;
     margin: 2px 0;
-    
+
 }
 
 
@@ -494,7 +495,7 @@ hr {
 }
 
 #gallery-hero-text {
-    
+
     font-family: 'Open Sans', sans-serif;
     width: 50%;
     height: 300px;
@@ -505,7 +506,8 @@ hr {
     top: 120px;
     left: 40px;
     position: fixed;
-    
+    z-index: 1;
+
 }
 
 #gallery-hero-text h3 {
@@ -524,6 +526,8 @@ hr {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    position: relative;
+    z-index: 2;
 
 }
 
@@ -589,7 +593,7 @@ hr {
 }
 
 #about-hero-text {
-    
+
     font-family: 'Open Sans', sans-serif;
     width: 50%;
     height: 380px;
@@ -636,7 +640,7 @@ hr {
 
 .modal {
     font-family: 'Open Sans', sans-serif;
-  
+
 }
 
 
@@ -652,10 +656,40 @@ hr {
     color: white;
     border-color: white;
     font-family: 'Schoolbell', cursive;
-    font-size: 16px;    
+    font-size: 16px;
 }
 
 .modal .btn-secondary:hover {
     background-color: #519bea;
     color: white;
 }
+
+
+/* media queries */
+
+@media screen and (max-width: 1393px) {
+    #index-hero-image {
+       background: url("../images/hero1.jpg") no-repeat center fixed;
+    }
+
+    #index-hero-text {
+
+        font-family: 'Open Sans', sans-serif;
+        width: 100%;
+        height: 1200px;
+        /* margin: 0 auto; */
+        top: 80px;
+        text-align: center;
+                
+    }
+
+    #info-section {
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+       
+    }
+}
+
