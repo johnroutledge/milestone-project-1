@@ -4,7 +4,13 @@ body {
     text-decoration: none;
 }
 
-/*navbar*/
+.bb-hr {
+    width: 60%;
+    margin: 20px 0;
+    border-color: #519bea;
+}
+
+/*NAVBAR*/
 
 .navalert-container {
     position: fixed;
@@ -33,7 +39,7 @@ body {
 }
 
 .navbar-brand {
-    /* font-weight: bold; */
+    
     letter-spacing: 4px;
     padding-left: 10px;
 }
@@ -49,9 +55,16 @@ body {
     transition: 0.5s;
 }
 
-/*index page*/
+/*INDEX PAGE*/
 
-/*hero-image*/
+/*HERO IMAGE*/
+
+.hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 #index-hero-image{
     height: 500px;
@@ -61,13 +74,6 @@ body {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-}
-
-.hero-outer {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
 }
 
 
@@ -82,75 +88,32 @@ body {
 }
 
 
-#index-hero-text, #index-hero-text h2 {
+.hero-text, .hero-text h2 {
     color: #ffffff;
 }
 
-#index-hero-text {
+.hero-text {
 
     font-family: 'Open Sans', sans-serif;
     width: 50%;
-    /* height: 350px; */
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     background-color: rgba(0,0,0,0.7);
     top: 100px;
     left: 0px;
-    /* top: 120px;
-    left: 40px; */
-    position: absolute;
+    position: fixed;
+    z-index: 1;
 
 }
 
-#index-hero-text h3 {
+.hero-text h3 {
     font-family: 'Schoolbell', cursive;
 }
 
-.hero-container {
-    height: 550px;
-    width: 100%;
-    background: url("../images/hero1.jpg") no-repeat right center fixed;
 
 
-    /* animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: inherit;
-    width: 100%;
-    background-color: rgba(0,0,0,0.4);
-
-}
-
-
-/*jumbotron*/
-
-.jumbotron {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: rgba(0,0,0,0.7);
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    padding-top: 20px;
-    line-height: 24px;
-}
-
-.jumbotron-header {
-    /* text-transform: uppercase; */
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-    font-family: 'Schoolbell', cursive;
-}
 
 /*buttons*/
 
@@ -161,7 +124,6 @@ body {
     color: white;
     border-color: white;
     font-family: 'Schoolbell', cursive;
-    /* font-family: 'Open Sans', sans-serif; */
     font-size: 16px;
 }
 
@@ -174,6 +136,8 @@ body {
     padding-right: 150px;
     text-align: center;
     background-color: #90bff1;
+    position: relative;
+    z-index: 2;
 }
 
 #info-section p {
@@ -181,23 +145,16 @@ body {
 }
 
 
-/* parallax */
 
-#parallax-outer {
-    height: 550px;
+/*RESOURCES*/
+
+.resource-outer {
+    /* height: 500px; */
     width: 100%;
     overflow: hidden;
-
-}
-
-#parallax-image {
-    background: url("../images/parallax2.jpg") no-repeat left fixed;
-    height: 500px;
-    margin-bottom: 0px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    
+    z-index: 2;
 }
 
 .parallax-container {
@@ -206,49 +163,6 @@ body {
     background: url("../images/parallax2.jpg") no-repeat left fixed;
     padding: 0;
 
-    /* animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
-}
-
-.parallax-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: inherit;
-    width: 100%;
-    background-color: rgba(0,0,0,0.7);
-
-}
-
-.parallax-jumbotron {
-    margin-top: 100px;
-    margin-left: 50px;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    padding-top: 20px;
-    line-height: 24px;
-}
-
-.parallax-jumbotron-header {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-    font-family: 'Schoolbell', cursive;
-}
-
-
-
-
-/*resources*/
-
-.resource-outer {
-    /* height: 500px; */
-    width: 100%;
-    overflow: hidden;
-    position: relative;
 }
 
 #resource-overlay {
@@ -270,11 +184,7 @@ body {
     font-family: 'Schoolbell', cursive;
 }
 
-#resource-overlay hr {
-    width: 60%;
-    margin: 20px 0;
-    border-color: #519bea;
-}
+
 
 .resource-item {
     height: 168px;
@@ -344,7 +254,7 @@ body {
     margin-bottom: 50px;
 }
 
-/* footer */
+/* FOOTER */
 
 #footer {
     background-color: #519bea;
@@ -390,7 +300,7 @@ body {
 
 
 
-/* visa-page */
+/* VISA PAGE */
 
 .visa-page-desc {
 
@@ -414,7 +324,7 @@ body {
 
 }
 
-/* language-page */
+/* LANGUAGE PAGE */
 
 .navspacer {
     padding-top: 66px;
@@ -464,11 +374,7 @@ body {
 
 }
 
-#desc-overlay hr {
-    width: 60%;
-    margin: 20px 0;
-    border-color: #519bea;
-}
+
 
 hr {
     width: 90%;
@@ -477,7 +383,7 @@ hr {
 }
 
 
-/* gallery page */
+/* GALLERY PAGE */
 
 #gallery-hero-outer {
     height: 500px;
@@ -495,37 +401,6 @@ hr {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-}
-
-
-#gallery-hero-text, #about-hero-text h2 {
-    color: #ffffff;
-}
-
-#gallery-hero-text {
-
-    font-family: 'Open Sans', sans-serif;
-    width: 50%;
-    height: 300px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: rgba(0,0,0,0.8);
-    top: 120px;
-    left: 40px;
-    position: fixed;
-    z-index: 1;
-
-}
-
-#gallery-hero-text h3 {
-    font-family: 'Schoolbell', cursive;
-}
-
-#gallery-hero-text hr {
-    width: 60%;
-    margin: 20px 0;
-    border-color: #519bea;
 }
 
 
@@ -576,7 +451,7 @@ hr {
 
 
 
-/* about-page */
+/* ABOUT PAGE */
 
 #about-hero-outer {
     height: 600px;
@@ -596,34 +471,6 @@ hr {
 }
 
 
-#about-hero-text, #about-hero-text h2 {
-    color: #ffffff;
-}
-
-#about-hero-text {
-
-    font-family: 'Open Sans', sans-serif;
-    width: 50%;
-    height: 380px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: rgba(0,0,0,0.8);
-    top: 120px;
-    left: 40px;
-    position: absolute;
-
-}
-
-#about-hero-text h3 {
-    font-family: 'Schoolbell', cursive;
-}
-
-#about-hero-text hr {
-    width: 60%;
-    margin: 20px 0;
-    border-color: #519bea;
-}
 
 .about-container {
     height: 550px;
@@ -644,7 +491,7 @@ hr {
 }
 
 
-/* register-modal */
+/* REGISTER MODAL */
 
 .modal {
     font-family: 'Open Sans', sans-serif;
@@ -673,7 +520,7 @@ hr {
 }
 
 
-/* media queries */
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 1360px) {
     .hero-outer {
@@ -685,7 +532,7 @@ hr {
        height: 460px;
     }
 
-    #index-hero-text {
+    .hero-text {
 
         font-family: 'Open Sans', sans-serif;
         width: 100%;
