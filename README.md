@@ -156,6 +156,22 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 |  Gallery page hero image                      | Scroll down/up |  Fixed and behind subsequent sections                     |               |
 |  Media Query iPhone 5 screen size             | Resize screen  |  All pages should respond and be visible                  |               |
 
+
+Testing User Stories:
+1. As someone thinking of moving to the UK, I want to see what life can be like so that I can make a better informed decision.
+* Yes, they could navigate to the gallery page and get a feel of UK life from the photos.
+2. As someone thinking of moving to the UK, I want tips on the immigration process so that I can budget correctly and save time on paperwork.
+* Yes, by following the links on the Visa page, they get the most accurate information quickly and easily.
+3. As a Thai person living in the UK who struggles with English, I want help with the language so that my everyday life is improved.
+* Yes, the links to the PDF tutorials from the language page are quickly accessible.
+4. As someone who has recently moved to the UK with children, I want an idea of what the UK is like for young children so that I can plan activities for them and make their lives more fulfilling.
+* Yes, by looking through the images in the gallery page, they can see varoius types of activites for the family the UK has to offer.
+5. As a Thai person living in Thailand who want to help my children with their English, I want language help specific to parents with children so that they progress quicker at school and have more opportunities later in life. 
+* Yes, the links to helping your children with their English are clear.
+6. As an interested observer, I want to be able to get the latest updates on social media so I can get the latest news and photos.
+* Yes, links to the BIlingual Boys social media pages are available on every page, as is the button so they can register for updates.
+
+
 ## Deployment 
 
 ### How to run this project locally
