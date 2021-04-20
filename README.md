@@ -130,7 +130,7 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 
 |  Test Label                                   | Action         | Expected Outcome                                          | Test Outcome  |
 |-----------------------------------------------|----------------|-----------------------------------------------------------|---------------|
-|  Bilingual Boys navbar icon                   | Click          |  Navigate to home page from all pages                     |               |
+|  Bilingual Boys navbar icon                   | Click          |  Navigate to home page from all pages                     | PASS          |
 |  Bilingual Boys navbar option                 | Click          |  Navigate to home page from all pages                     |               |
 |  Home navbar option                           |  Click         |  Navigate to home page from all pages                     |               |
 |  Visas navbar option                          | Click          |  Navigate to home page from all pages                     |               |
@@ -146,7 +146,15 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 |  YouTube icon in footer                       | Click          |  Navigate to Bilingual Boys YouTube page from all pages   |               |
 |  Instagram icon in footer                     | Click          |  Navigate to Bilingual Boys Instagram page from all pages |               |
 |  Facbeook icon in footer                      | Click          |  Navigate to Bilingual Boys Facebook page from all pages  |               |
-|  Gallery icon in resource section             | Click          |  Navigate to gallery                                      |               |
+|  Plane icon on visa page                      | Click          |  Navigate to GOV.UK pre visa checklis page                |               |
+|  ID card icon on visa page                    | Click          |  Navigate to GOV.UK pre visa checklis page                |               |
+|  XX icon on visa page                         | Click          |  Open GOV.UK pre visa checklis page in new tab            |               |
+|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 |               |
+|  Trolley icon on language page                | Click          |  Open PDF file in new tab                                 |               |
+|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 |               |
+|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 |               |
+|  Gallery page hero image                      | Scroll down/up |  Fixed and behind subsequent sections                     |               |
+|  Media Query iPhone 5 screen size             | Resize screen  |  All pages should respond and be visible                  |               |
 
 ## Deployment 
 
