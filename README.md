@@ -128,12 +128,25 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 
 ## Testing
 
-|  Test Label | Action  | Expected Outcome  | Test Outcome  |
-|-------------|---------|-------------------|---------------|
-|             |         |                   |               |
-|             |         |                   |               |
-|             |         |                   |               |
-
+|  Test Label                                   | Action         | Expected Outcome                                          | Test Outcome  |
+|-----------------------------------------------|----------------|-----------------------------------------------------------|---------------|
+|  Bilingual Boys navbar icon                   | Click          |  Navigate to home page from all pages                     |               |
+|  Bilingual Boys navbar option                 | Click          |  Navigate to home page from all pages                     |               |
+|  Home navbar option                           |  Click         |  Navigate to home page from all pages                     |               |
+|  Visas navbar option                          | Click          |  Navigate to home page from all pages                     |               |
+|  Language navbar option                       | Click          |  Navigate to home page from all pages                     |               |
+|  Gallery navbar option                        | Click          |  Navigate to home page from all pages                     |               |
+|  About navbar option                          | Click          |  Navigate to home page from all pages                     |               |
+|  Navbar                                       | Scroll down/up |  Smooth hide/appear                                       |               |
+|  Index page hero image                        | Scroll down/up |  Fixed and behind subsequent sections                     |               |
+|  Visa icon in resource section                | Click          |  Navigate to visa page                                    |               |
+|  Language icon in resource section            | Click          |  Navigate to language                                     |               |
+|  Gallery icon in resource section             | Click          |  Navigate to gallery                                      |               |
+|  Register button in footer                    | Click          |  Navigate to register modal from all pages                |               |
+|  YouTube icon in footer                       | Click          |  Navigate to Bilingual Boys YouTube page from all pages   |               |
+|  Instagram icon in footer                     | Click          |  Navigate to Bilingual Boys Instagram page from all pages |               |
+|  Facbeook icon in footer                      | Click          |  Navigate to Bilingual Boys Facebook page from all pages  |               |
+|  Gallery icon in resource section             | Click          |  Navigate to gallery                                      |               |
 
 ## Deployment 
 
