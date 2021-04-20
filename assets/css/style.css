@@ -1,5 +1,6 @@
 body {
     font-family: 'Schoolbell', cursive;
+    font-size: 1rem;
     overflow-x: hidden;
     text-decoration: none;
 }
@@ -18,7 +19,7 @@ body {
     left: 0;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
+    z-index: 999;
 }
 
 .navbar {
@@ -108,23 +109,24 @@ body {
 
 }
 
-.hero-text h3 {
+.hero-text h5 {
     font-family: 'Schoolbell', cursive;
 }
-
-
-
 
 /*buttons*/
 
 .btn-outline-secondary {
     vertical-align: top;
     margin-top: 5px;
-    background-color: #36454f;
+    background-color: #047bfa;
     color: white;
     border-color: white;
-    font-family: 'Schoolbell', cursive;
-    font-size: 16px;
+    
+}
+
+.btn-outline-secondary:hover {
+    background-color:#519bea;
+    color: white;
 }
 
 /* info-section */
@@ -186,18 +188,6 @@ body {
 
 
 
-.resource-item {
-    height: 168px;
-    padding-top: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: white;
-}
-
-.resource-item p {
-    font-family: 'Open Sans', sans-serif;
-
-}
 
 .resource-desc {
 
@@ -215,25 +205,22 @@ body {
 }
 
 
-.resources h2 {
-    font-weight: bold;
+
+.resource-item {
+    height: 168px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
 }
 
-.resources a {
-    text-decoration: none;
+.resource-item p {
+    font-family: 'Open Sans', sans-serif;
+
 }
 
-.resource {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.resource i {
-
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-    color: #36454f;
+.resource-item i {
+    color: #519bea;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -241,14 +228,11 @@ body {
     text-decoration: none;
 }
 
-.resource i:hover {
+.resource-item i:hover {
     text-decoration: none;
-    color: grey;
+    color: #047bfa;
 }
 
-.resource p {
-    font-family: 'Open Sans', sans-serif;
-}
 
 .footer-spacer {
     margin-bottom: 50px;
@@ -275,7 +259,7 @@ body {
 
 #footer-copyright{
     float: left;
-    font-size: 14px;
+    font-size: 1rem;
     padding-left: 10px;
     padding-top: 12px;
 }
@@ -285,7 +269,7 @@ body {
     margin-right: 10px;
     margin-top: 10px;
 
-    font-size: 30px;
+    font-size: 2rem;
 
     color: #fafafa;
     transition: all 0.35s ease-in-out;
@@ -302,7 +286,7 @@ body {
 
 /* VISA PAGE */
 
-.visa-page-desc {
+.visa-page-image {
 
     background: url("../images/e.jpg") top;
     background-position: center;
@@ -330,7 +314,7 @@ body {
     padding-top: 66px;
 }
 
-.language-page-desc {
+.language-page-image {
 
     background: url("../images/hero1.jpg");
     background-position: center;
@@ -341,14 +325,15 @@ body {
 }
 
 
-#desc-overlay {
+.desc-overlay {
 
     font-family: 'Open Sans', sans-serif;
-    width: 50%;
-    height: 580px;
-    padding-top: 140px;
+    width: 100%;
+    /* height: 580px; */
+    padding-top: 30px;
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 30px;
     color: white;
     background-color: rgba(0,0,0,0.7);
     top: 0;
@@ -356,7 +341,7 @@ body {
     position: absolute;
 }
 
-#desc-overlay h2 {
+.desc-overlay h2 {
     font-family: 'Schoolbell', cursive;
     letter-spacing: 4px;
 }
@@ -510,8 +495,8 @@ hr {
     background-color: #047bfa;
     color: white;
     border-color: white;
-    font-family: 'Schoolbell', cursive;
-    font-size: 16px;
+    /* font-family: 'Schoolbell', cursive; */
+    font-size: 1rem;
 }
 
 .modal .btn-secondary:hover {
@@ -521,6 +506,20 @@ hr {
 
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 700px){
+    #images{
+        column-count: 2
+    }
+
+    .parallax-container{
+        height: 1100px;
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 1360px) {
     .hero-outer {
@@ -548,7 +547,7 @@ hr {
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 20px;
-        text-align: center;
+        text-align: left;
 
     }
 
@@ -570,13 +569,10 @@ hr {
     }
 }
 
-@media screen and (max-width: 700px){
-    #images{
-        column-count: 2
-    }
 
-    .parallax-container{
-        height: 1100px;
+@media screen and (min-width: 2000px) {
+    container {
+        width: 1000px;
+        
     }
 }
-
