@@ -1,6 +1,10 @@
 # Bilingual Boys
 **User Centric Frontend Development Milestone Project**
 
+[Link to Live Website](https://johnroutledge.github.io/milestone-project-1/index.html)
+
+[GitHub Repo](https://github.com/johnroutledge/milestone-project-1)
+
 There is currently a huge interest in Thailand for parents to advance their children's English ability by teaching them themselves. 
 Even though children study English in school from a young age, the quality of lessons is often lacking. With this in mind, I have 
 developed a website which addresses these needs.
