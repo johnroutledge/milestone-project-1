@@ -3,6 +3,7 @@ body {
     font-size: 1rem;
     overflow-x: hidden;
     text-decoration: none;
+    /* max-width: 2000px; */
 }
 
 .bb-hr {
@@ -13,21 +14,33 @@ body {
 
 /*NAVBAR*/
 
-.navalert-container {
+/* .navalert-container {
     position: fixed;
     top: 0;
     left: 0;
     padding-left: 0;
     padding-right: 0;
     z-index: 999;
-}
+    background-color: #519bea;
+} */
 
-.navbar {
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 999;
+    background-color: #519bea;
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #519bea;
+}
 
+#nav-container {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-nav {
@@ -40,29 +53,31 @@ body {
 }
 
 .navbar-brand {
-    
     letter-spacing: 4px;
     padding-left: 10px;
 }
 
-
-
 #navbar {
-
     position: fixed;
     top: 0;
     width: 100%;
-    display: flex;
+    /* display: flex; */
     transition: 0.5s;
 }
 
 /*INDEX PAGE*/
 
+.container {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*HERO IMAGE*/
 
 .hero-outer {
     height: 500px;
-    /* width: 100%; */
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -71,7 +86,7 @@ body {
     height: 500px;
     width: 100%;
     background: url("../images/hero1.jpg") no-repeat right center fixed;
-
+    background-size: cover;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -240,7 +255,7 @@ body {
 
 /* FOOTER */
 
-#footer {
+footer {
     background-color: #519bea;
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -251,6 +266,12 @@ body {
     bottom: 0;
     width: 100%;
     z-index: 99;
+}
+
+#footer {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #footer-register{
@@ -571,8 +592,8 @@ hr {
 
 
 @media screen and (min-width: 2000px) {
-    container {
-        width: 1000px;
-        
+    #index-hero-image {
+    background: url(../images/hero1.jpg) left;
+    background-size: cover;
     }
 }
