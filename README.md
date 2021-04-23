@@ -158,7 +158,12 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 |  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 |               |
 |  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 |               |
 |  Gallery page hero image                      | Scroll down/up |  Fixed and behind subsequent sections                     |               |
-|  Media Query iPhone 5 screen size             | Resize screen  |  All pages should respond and be visible                  |               |
+|  Submit button in register modal              | Click          |  Validate all fields correctly (names & email)            |               |
+|  Submit button in register modal              | Click          |  Post data to Code Instute and open results in new tab    |               |
+|  Media Query mobile screen size               | Resize screen  |  All pages should respond and be visible from iPhone 5    |               |
+|  Media Query tablet screen size               | Resize screen  |  All pages should respond and be visible from iPad        |               |
+|  Media Query desktop screen size              | Resize screen  |  All pages should respond and be visible from iPhone 5    |               |
+|  Media Query 5k screen size                   | Resize screen  |  All pages should respond and be visible on 5k screen     |               |
 
 
 Testing User Stories:
@@ -174,6 +179,9 @@ Testing User Stories:
 * Yes, the links to helping your children with their English are clear.
 6. As an interested observer, I want to be able to get the latest updates on social media so I can get the latest news and photos.
 * Yes, links to the BIlingual Boys social media pages are available on every page, as is the button so they can register for updates.
+
+Testing broswer compataiblity:
+The website was successfully opened and rendered correctly in Chrome, Firefox and Safari.
 
 
 ## Deployment 
