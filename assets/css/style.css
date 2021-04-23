@@ -12,6 +12,13 @@ body {
     border-color: #519bea;
 }
 
+.container {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
 /*NAVBAR*/
 
 /* .navalert-container {
@@ -67,11 +74,7 @@ nav {
 
 /*INDEX PAGE*/
 
-.container {
-    max-width: 2000px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 /*HERO IMAGE*/
 
@@ -104,7 +107,7 @@ nav {
 }
 
 
-.hero-text, .hero-text h2 {
+.hero-text, .hero-text h3 {
     color: #ffffff;
 }
 
@@ -125,7 +128,7 @@ nav {
 
 }
 
-.hero-text h5 {
+.hero-text h3 {
     font-family: 'Schoolbell', cursive;
 }
 
@@ -235,7 +238,7 @@ nav {
 
 }
 
-.resource-item i {
+.resource-item i, a {
     color: #519bea;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -244,7 +247,7 @@ nav {
     text-decoration: none;
 }
 
-.resource-item i:hover {
+.resource-item i:hover, a:hover {
     text-decoration: none;
     color: #047bfa;
 }
@@ -529,16 +532,13 @@ hr {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 700px){
-    #images{
-        column-count: 2
-    }
 
-    .parallax-container{
-        height: 1100px;
+@media screen and (min-width: 2000px) {
+    #index-hero-image {
+    background: url(../images/hero1.jpg) left;
+    background-size: cover;
     }
 }
-
 
 
 
@@ -592,9 +592,64 @@ hr {
 }
 
 
-@media screen and (min-width: 2000px) {
+@media screen and (max-width: 700px){
+    .hero-outer {
+        height: 650px;
+    }
+
     #index-hero-image {
-    background: url(../images/hero1.jpg) left;
-    background-size: cover;
+       background: url("../images/hero1.jpg") no-repeat top right fixed;
+       height: 650px;
+    }
+
+    .hero-text {
+
+        font-family: 'Open Sans', sans-serif;
+        width: 100%;
+        top: 80px;
+        text-align: center;
+        height: 650px;
+
+    }
+
+    #info-section {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        text-align: left;
+        
+    }
+
+    #resource-overlay {
+        height: 590px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .resource-item {
+    height: 168px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    }
+
+
+    
+    #images{
+        column-count: 2
+    }
+
+    .parallax-container{
+        height: 1100px;
+    }
+
+    .footer-spacer{
+        margin-bottom: 40px;
     }
 }
+
+
+
