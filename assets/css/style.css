@@ -538,9 +538,17 @@ hr {
     background: url(../images/hero1.jpg) left;
     background-size: cover;
     }
+
+    .footer-spacer {
+    margin-bottom: 0px;
+    }
 }
 
-
+@media screen and (max-width: 2000px) {
+    .footer-spacer {
+    margin-bottom: 0px;
+    }
+}
 
 
 @media screen and (max-width: 1360px) {
