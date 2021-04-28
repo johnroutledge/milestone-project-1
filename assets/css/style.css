@@ -3,7 +3,6 @@ body {
     font-size: 1rem;
     overflow-x: hidden;
     text-decoration: none;
-    /* max-width: 2000px; */
 }
 
 .bb-hr {
@@ -20,16 +19,6 @@ body {
 }
 
 /*NAVBAR*/
-
-/* .navalert-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 999;
-    background-color: #519bea;
-} */
 
 nav {
     position: fixed;
@@ -68,13 +57,10 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    /* display: flex; */
     transition: 0.5s;
 }
 
 /*INDEX PAGE*/
-
-
 
 /*HERO IMAGE*/
 
@@ -95,8 +81,6 @@ nav {
     animation-fill-mode: forwards;
 }
 
-
-
 @keyframes hero-zoom {
     from{
         transform: scale(1.1);
@@ -106,13 +90,11 @@ nav {
     }
 }
 
-
 .hero-text, .hero-text h3 {
     color: #ffffff;
 }
 
 .hero-text {
-
     font-family: 'Open Sans', sans-serif;
     width: 50%;
     padding-top: 20px;
@@ -121,11 +103,8 @@ nav {
     padding-bottom: 20px;
     background-color: rgba(0,0,0,0.7);
     top: 100px;
-    /* left: 0px; */
     position: absolute;
-    /* position: fixed; */
     z-index: 1;
-
 }
 
 .hero-text h3 {
@@ -140,7 +119,6 @@ nav {
     background-color: #047bfa;
     color: white;
     border-color: white;
-    
 }
 
 .btn-outline-secondary:hover {
@@ -165,31 +143,24 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
 /*RESOURCES*/
 
 .resource-outer {
-    /* height: 500px; */
     width: 100%;
     overflow: hidden;
     position: relative;
-    
     z-index: 2;
 }
 
 .parallax-container {
-    /* height: 550px; */
     width: 100%;
     background: url("../images/parallax2.jpg") no-repeat left fixed;
     padding: 0;
-
 }
 
 .resource-overlay {
     font-family: 'Open Sans', sans-serif;
     height: 100%;    
-    /* height: 504px; */
     padding-top: 40px;
     padding-left: 80px;
     padding-right: 80px;
@@ -205,7 +176,6 @@ nav {
 }
 
 .resource-desc {
-
     background: url("../images/e.jpg") top;
     background-position: center;
     background-repeat: no-repeat;
@@ -215,15 +185,12 @@ nav {
 }
 
 .resource-container {
-
     padding-top: 20px;
 }
 
-
-
 .resource-item {
     height: 168px;
-    padding-top: 40px;
+    padding-top: 25px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: white;
@@ -231,7 +198,6 @@ nav {
 
 .resource-item p {
     font-family: 'Open Sans', sans-serif;
-
 }
 
 .resource-item i, a {
@@ -247,7 +213,6 @@ nav {
     text-decoration: none;
     color: #047bfa;
 }
-
 
 .footer-spacer {
     margin-bottom: 50px;
@@ -289,9 +254,7 @@ footer {
     float: right;
     margin-right: 10px;
     margin-top: 10px;
-
     font-size: 2rem;
-
     color: #fafafa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -303,18 +266,14 @@ footer {
     color: grey;
 }
 
-
-
 /* VISA PAGE */
 
 .visa-page-image {
-
     background: url("../images/e.jpg") top;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 520px;
-
 }
 
 .visa-item {
@@ -326,7 +285,6 @@ footer {
 
 .visa-item p {
     font-family: 'Open Sans', sans-serif;
-
 }
 
 /* LANGUAGE PAGE */
@@ -336,22 +294,17 @@ footer {
 }
 
 .language-page-image {
-
     background: url("../images/hero1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 520px;
-
 }
 
-
 .desc-overlay {
-
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     height: 100%;
-    /* height: 580px; */
     padding-top: 30px;
     padding-left: 80px;
     padding-right: 80px;
@@ -373,22 +326,16 @@ footer {
     padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
 .language-item p {
     font-family: 'Open Sans', sans-serif;
-
 }
-
-
 
 hr {
     width: 90%;
     margin: 2px 0;
-
 }
-
 
 /* GALLERY PAGE */
 
@@ -403,8 +350,6 @@ hr {
     height: 500px;
     width: 100%;
     background: url("../images/parallax.jpg") no-repeat top fixed;
-    /* position: relative; */
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -418,7 +363,6 @@ hr {
     column-gap: 0;
     position: relative;
     z-index: 2;
-
 }
 
 #images img {
@@ -440,7 +384,6 @@ hr {
     overflow: hidden;
     padding: 0 1px;
     height: 100%;
-
 }
 
 .gallery-row .gallery-column img {
@@ -456,8 +399,6 @@ hr {
     filter: grayscale(0) brightness(1);
 }
 
-
-
 /* ABOUT PAGE */
 
 #about-hero-outer {
@@ -471,7 +412,6 @@ hr {
     height: 600px;
     width: 100%;
     background: url("../images/a.jpg") no-repeat left;
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -483,7 +423,6 @@ hr {
     height: 550px;
     width: 100%;
     background: url("../images/b.jpg") no-repeat right center fixed;
-
 }
 
 .about-container p {
@@ -494,7 +433,6 @@ hr {
     height: 550px;
     width: 100%;
     overflow: hidden;
-
 }
 
 
@@ -502,9 +440,7 @@ hr {
 
 .modal {
     font-family: 'Open Sans', sans-serif;
-
 }
-
 
 .modal-header {
     font-family: 'Schoolbell', cursive;
@@ -517,7 +453,6 @@ hr {
     background-color: #047bfa;
     color: white;
     border-color: white;
-    /* font-family: 'Schoolbell', cursive; */
     font-size: 1rem;
 }
 
@@ -526,9 +461,7 @@ hr {
     color: white;
 }
 
-
 /* MEDIA QUERIES */
-
 
 @media screen and (min-width: 2000px) {
     #index-hero-image {
@@ -547,7 +480,6 @@ hr {
     }
 }
 
-
 @media screen and (max-width: 1360px) {
     .hero-outer {
         height: 460px;
@@ -559,32 +491,30 @@ hr {
     }
 
     .hero-text {
-
         font-family: 'Open Sans', sans-serif;
         width: 100%;
-        /* height: 340px; */
-        /* margin: 0 auto; */
         top: 80px;
         text-align: center;
-
     }
 
     #info-section {
         padding-top: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
         padding-bottom: 20px;
         text-align: left;
+    }
 
+    .visa-page-image {
+        height: 460px;
     }
 
     .resource-overlay {
-
-        /* height: 504px; */
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-
+        /* top: 80px; */
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
     }
 
     #images{
@@ -596,8 +526,13 @@ hr {
     }
 }
 
-
 @media screen and (max-width: 700px){
+    
+    .nav-link {
+        text-align: right;
+        margin-right: 10px;
+    }
+    
     .hero-outer {
         height: 650px;
     }
@@ -608,60 +543,63 @@ hr {
     }
 
     .hero-text {
-
         font-family: 'Open Sans', sans-serif;
         width: 100%;
+        padding-left: 10px;
         top: 80px;
         text-align: left;
-        /* height: 650px; */
-
     }
 
+    .hero-text h3 {
+        padding-left: 10px;
+    }
+    
     #info-section h3, p{
-        /* padding-top: 20px; */
         padding-left: 10px;
         padding-right: 10px;
-        /* padding-bottom: 20px; */
         text-align: left;
-        
+    }
+
+    #info-section {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        text-align: left;
     }
 
     .resource-overlay {
-        /* height: 590px; */
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .resource-item {
-    height: 168px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: white;
+    .resource-overlay h3 {
+        margin-top: 20px;
+        padding-left: 10px;
     }
 
-
+    .resource-item {
+        height: 168px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+    }
     
     #images {
         column-count: 2
     }
-
-    /* .parallax-container {
-        height: 1100px;
-    } */
 
     .footer-spacer {
         margin-bottom: 40px;
     }
 
     .desc-overlay {
-
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
-    
     }
 
     .visa-item {
