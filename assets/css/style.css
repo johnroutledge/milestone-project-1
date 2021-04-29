@@ -273,7 +273,30 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 520px;
+    height: 540px;
+}
+
+
+.visas-language-overlay {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;    
+    padding-top: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    position: relative; 
+}
+
+.visas-language-overlay h3 {
+    font-family: 'Schoolbell', cursive;
+}
+
+.item-spacer {
+    margin-top: 70px;
 }
 
 .visa-item {
@@ -298,8 +321,10 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 520px;
+    height: 550px;
 }
+
+
 
 .desc-overlay {
     font-family: 'Open Sans', sans-serif;
@@ -505,8 +530,8 @@ hr {
         text-align: left;
     }
 
-    .visa-page-image {
-        height: 460px;
+    .visa-page-image, .language-page-image {
+        height: 100%;
     }
 
     .resource-overlay {
@@ -516,7 +541,11 @@ hr {
         padding-right: 50px;
         padding-bottom: 20px;
     }
-
+    
+    .item-spacer {
+        margin-top: 0px;
+    }
+    
     #images{
         column-count: 3;
     }
@@ -600,6 +629,26 @@ hr {
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
+    }
+
+    .visa-page-image, .language-page-image {
+        height: 100%;
+    }
+
+    .visas-language-overlay {
+        padding-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+
+    .visas-language-overlay h3 {
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+
+    .item-spacer {
+        margin-top: 0px;
     }
 
     .visa-item {
