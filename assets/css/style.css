@@ -380,6 +380,10 @@ hr {
     animation-fill-mode: forwards;
 }
 
+#gallery-spacer{
+    height: 1px;
+    background-color: #047bfa;
+}
 
 #images {
     clear: both;
@@ -471,12 +475,21 @@ hr {
 
 @media screen and (min-width: 2000px) {
     #index-hero-image {
-    background: url(../images/hero1.jpg) left;
-    background-size: cover;
+        background: url(../images/hero1.jpg) left;
+        background-size: cover;
+    }
+
+    #gallery-hero-image {
+        background: url("../images/parallax.jpg") top left;
+        background-size: cover;
+    }
+
+    #about-hero-image {
+        background-size: cover;
     }
 
     .footer-spacer {
-    margin-bottom: 0px;
+        margin-bottom: 0px;
     }
 }
 
@@ -499,7 +512,7 @@ hr {
     }
 
     .footer-spacer {
-    margin-bottom: 0px;
+        margin-bottom: 0px;
     }
 }
 

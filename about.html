@@ -69,26 +69,24 @@
 
     <!--FOOTER-->
     <footer>
-        <section id="footer">
-            <div>
-                <span class="d-none d-sm-block" id="footer-copyright">
-                    &#169 2021 Bilingual Boys   
-                </span>
-                <span id="footer-register">
-                    <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#getModal">Register for Free!</button>
-                </span>
-                <span class="col-xs-12 col-sm-12 social-links">
-                    <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a>
-                </span>
-            </div>
-        </section>
+        <div id="footer">
+            <span class="d-none d-sm-block" id="footer-copyright">
+                &#169; 2021 Bilingual Boys   
+            </span>
+            <span id="footer-register">
+                <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#getModal">Register for Free!</button>
+            </span>
+            <span class="col-xs-12 col-sm-12 social-links">
+                <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a>
+            </span>
+        </div>
     </footer>
 
     <!--REGISTER MODAL--> 
     <form action="https://formdump.codeinstitute.net/" target="_blank" method="POST">
-        <div class="modal" tabindex="-1" role="dialog" id="getModal">
+        <div class="modal fade" tabindex="-1" role="dialog" id="getModal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -98,36 +96,37 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form>
+                        <div>
                             <div class="form-group">
                                 <label for="first-name">First name</label>
-                                <input type="first-name" class="form-control" name="first_name" id="first-name" placeholder="first name" required>
+                                <input type="text" class="form-control" name="first_name" id="first-name" placeholder="first name" required>
                             </div>
                             <div class="form-group">
                                 <label for="last-name">Last name</label>
-                                <input type="last-name" class="form-control" name="last_name" id="last-name" placeholder="last name" required>
+                                <input type="text" class="form-control" name="last_name" id="last-name" placeholder="last name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email-address">Email address</label>
-                                <input type="email" class="form-control" name="email_address" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="email address" required>
+                                <input type="email" class="form-control" name="email_address" id="email-address" aria-describedby="email-address" placeholder="email address" required>
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-secondary">Submit</button>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </form>
 
-
-    <script src="https://kit.fontawesome.com/e7868c6bc8.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="assets/js/index.js"></script>
-    <script type="text/javascript">
+    <script src="https://kit.fontawesome.com/e7868c6bc8.js" crossorigin="anonymous"></script>
+    
+    
+    <!-- HIDING NAVBAR (NEEDS CREDIT)-->
+    <script>  
         var lastScrollTop = 0;
             navbar = document.getElementById("navbar");
             window.addEventListener("scroll", function(){
