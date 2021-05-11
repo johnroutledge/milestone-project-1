@@ -101,6 +101,8 @@ which we want to reflect in the quality of the website's content.
 * Github/Gitpod
 * BootstrapCDN (Bootstrap 4)
 * Google fonts
+* Google Chrome Devtools
+* Lighthouse (in Google Chrome Devtools)
 
 ## Features
 **Implemented**
@@ -182,6 +184,17 @@ Testing User Stories:
 
 Testing broswer compataiblity:
 The website was successfully opened and rendered correctly in Chrome, Firefox and Safari.
+
+Code validation:
+Both the HTML and CSS were validated using the W3C Markup Validation Service. This was initially done using the 'Validate by URI' option and pasting the link to the
+Github repo.  However, doing the validation checks on the HTML files this way brought up dozens of errors regarding the Bootstrap CDN which were impossible to correct.  
+Consequently the checks were done using the 'Validate by Direct Input' option. This did not result in the aforementioned Bootstrap CDN errors, but did produce warnings and errors for code written by myself. These were rectified straightforwardly and final checks were done resulting in no errors or warnings.  All checks on the CSS file were clear 
+on the first attempt.
+
+Testing Performance, Best Practices, Accessibility and SEO:
+This was done using Lighthouse in Google Chrome Devtools. On all pages, performance came back initially with a score under 90% due to image file sizes.  Having compressed the 
+Bilingual Boys navbar logo, all pages returned a performance score above 90% with the exception of the gallery page. The performance score of the gallery page was very low (31%) 
+due to the number of images being used.  Having compressed the images and deleted some unnecessary ones, running the test again resulted in a score of above 90%. Best Practices and Accessibility scores on all pages were above 90% and so not actioned.  SEO test figures were 100% on all pages.
 
 
 ## Deployment 
