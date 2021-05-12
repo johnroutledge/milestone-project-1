@@ -398,9 +398,14 @@ hr {
     width: 100%;
 }
 
+#image-21, #image-22, #image-23, #image-24, #image-25, #image-26, #image-27, #image-28, #image-29, #image-30, 
+#image-31, #image-32, #image-33, #image-34, #image-35, #image-36, #image-37, #image-38, #image-39 {
+    display: none;
+} 
+
 
 /* credit to: fullyworldwebtutorials */
-.gallery-row {
+/* .gallery-row {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -426,7 +431,7 @@ hr {
 
 .gallery-row .gallery-column img:hover {
     filter: grayscale(0) brightness(1);
-}
+}  */
 
 /* ABOUT PAGE */
 
@@ -608,6 +613,13 @@ hr {
         text-align: left;
     }
 
+    .parallax-container {
+        width: 100%;
+        background: url("../images/e.jpg") no-repeat center fixed;
+        background-size: 100%;
+        padding: 0;
+    }
+
     .resource-overlay {
         padding-top: 10px;
         padding-left: 10px;
@@ -628,9 +640,20 @@ hr {
     }
     
     #images {
-        column-count: 2
+        column-count: 2;
     }
 
+    #image-1, #image-2, #image-3, #image-4, #image-5, #image-6, #image-7, #image-8, #image-9, #image-10, 
+    #image-11, #image-12, #image-13, #image-14, #image-15, #image-16, #image-17, #image-18, #image-19 {
+        display: none;
+    } 
+
+    #image-21, #image-22, #image-23, #image-24, #image-25, #image-26, #image-27, #image-28, #image-29, #image-30, 
+    #image-31, #image-32, #image-33, #image-34, #image-35, #image-36, #image-37, #image-38, #image-39 {
+        display: block;
+    } 
+
+    
     .footer-spacer {
         margin-bottom: 40px;
     }
@@ -685,6 +708,4 @@ hr {
     
 
 }
-
-
 
