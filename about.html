@@ -47,7 +47,6 @@
 
         <section id="about-hero-outer">
             <div id="about-hero-image"></div>
-            <!-- <div id="about-hero-text"> -->
             <div class="hero-text">    
                 <h3>About the Bilingual Boys</h3>
                 <hr class="bb-hr">
@@ -125,19 +124,29 @@
     <script src="https://kit.fontawesome.com/e7868c6bc8.js" crossorigin="anonymous"></script>
     
     
-    <!-- HIDING NAVBAR (NEEDS CREDIT)-->
+    <!-- HIDING NAVBAR (Thanks to: w3.schools.com)-->
     <script>  
-        var lastScrollTop = 0;
-            navbar = document.getElementById("navbar");
-            window.addEventListener("scroll", function(){
-            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            if (scrollTop > lastScrollTop){
-                navbar.style.top="-100px";
+        // var lastScrollTop = 0;
+        //     navbar = document.getElementById("navbar");
+        //     window.addEventListener("scroll", function(){
+        //     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        //     if (scrollTop > lastScrollTop){
+        //         navbar.style.top="-100px";
+        //     } else {
+        //         navbar.style.top="0";
+        //     }
+        //     lastScrollTop = scrollTop;
+        // })
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
             } else {
-                navbar.style.top="0";
+                document.getElementById("navbar").style.top = "-50px";
             }
-            lastScrollTop = scrollTop;
-        })
+            prevScrollpos = currentScrollPos;
+        }
     </script>
 </body>
 </html>

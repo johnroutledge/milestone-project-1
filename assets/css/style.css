@@ -41,6 +41,7 @@ nav {
 
 .navbar-nav {
     font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
     color: white;
 }
 
@@ -51,6 +52,8 @@ nav {
 .navbar-brand {
     letter-spacing: 4px;
     padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #navbar {
@@ -72,7 +75,7 @@ nav {
 #index-hero-image{
     height: 500px;
     width: 100%;
-    background: url("../images/hero1-min.jpg") no-repeat right center fixed;
+    background: url("../images/on_the_jetty.jpg") no-repeat right center fixed;
     background-size: cover;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -152,7 +155,7 @@ nav {
 
 .parallax-container {
     width: 100%;
-    background: url("../images/e.jpg") no-repeat left fixed;
+    background: url("../images/on_bikes.jpg") no-repeat left fixed;
     background-size: 50%;
     padding: 0;
 }
@@ -175,7 +178,7 @@ nav {
 }
 
 .resource-desc {
-    background: url("../images/e.jpg") top;
+    background: url("../images/on_bikes.jpg") top;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -268,7 +271,7 @@ footer {
 /* VISA PAGE */
 
 .visa-page-image {
-    background: url("../images/e.jpg") top;
+    background: url("../images/on_bikes.jpg") top;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -317,33 +320,12 @@ footer {
 }
 
 .language-page-image {
-    background: url("../images/hero1.jpg");
+    background: url("../images/wave_to_the_ducks.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 640px;
 }
-
-/* .desc-overlay {
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    width: 100%;
-    height: 100%;
-    padding-top: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 30px;
-    color: white;
-    background-color: rgba(0,0,0,0.7);
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-
-.desc-overlay h2 {
-    font-family: 'Schoolbell', cursive;
-    letter-spacing: 4px;
-} */
 
 .language-item {
     height: 140px;
@@ -445,7 +427,7 @@ hr {
 #about-hero-image{
     height: 600px;
     width: 100%;
-    background: url("../images/a.jpg") no-repeat left;
+    background: url("../images/duckpond.jpg") no-repeat left;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -480,7 +462,7 @@ hr {
 
 @media screen and (min-width: 2000px) {
     #index-hero-image {
-        background: url(../images/hero1.jpg) left;
+        background: url(../images/on_the_jetty.jpg) left;
         background-size: cover;
     }
 
@@ -500,18 +482,18 @@ hr {
 
 @media screen and (max-width: 2000px) {
     #nav-container {
-        max-width: 1300px;
+        max-width: 1400px;
     }
     
     .container {
-        max-width: 1300px;
+        max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
         padding: 0;
     }
 
     #footer {
-        max-width: 1300px;
+        max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -527,7 +509,7 @@ hr {
     }
 
     #index-hero-image {
-       background: url("../images/hero1.jpg") no-repeat top right fixed;
+       background: url("../images/on_the_jetty.jpg") no-repeat bottom right fixed;
        height: 460px;
     }
 
@@ -544,6 +526,13 @@ hr {
         padding-right: 50px;
         padding-bottom: 20px;
         text-align: left;
+    }
+
+    .parallax-container {
+        width: 100%;
+        background: url("../images/on_bikes.jpg") no-repeat center fixed;
+        /* background-size: 100%; */
+        padding: 0;
     }
 
     .visa-page-image, .language-page-image {
@@ -583,7 +572,7 @@ hr {
     }
 
     #index-hero-image {
-       background: url("../images/hero1.jpg") no-repeat top right fixed;
+       background: url("../images/on_the_jetty_mob.jpg") no-repeat center fixed;
        height: 650px;
     }
 
@@ -615,8 +604,8 @@ hr {
 
     .parallax-container {
         width: 100%;
-        background: url("../images/e.jpg") no-repeat center fixed;
-        background-size: 100%;
+        background: url("../images/on_bikes_mob.jpg") no-repeat center fixed;
+        /* background-size: 100%; */
         padding: 0;
     }
 
@@ -652,21 +641,21 @@ hr {
     #image-31, #image-32, #image-33, #image-34, #image-35, #image-36, #image-37, #image-38, #image-39 {
         display: block;
     } 
-
     
     .footer-spacer {
         margin-bottom: 40px;
     }
 
-    /* .desc-overlay {
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-    } */
-
     .visa-page-image, .language-page-image {
         height: 100%;
+    }
+
+    .visa-page-image {
+        background: url("../images/on_bikes_mob.jpg") no-repeat center fixed;
+    }
+
+    .language-page-image {
+        background: url("../images/wave_to_the_ducks_mob.jpg") no-repeat center fixed;
     }
 
     .visas-language-overlay {
@@ -694,12 +683,12 @@ hr {
     }
 
     #gallery-hero-image {
-        background: url("../images/parallax2.jpg") no-repeat bottom fixed;
+        background: url("../images/sitting_on_log_mob.jpg") no-repeat top fixed;
     }
 
     #about-hero-image {
         height: 100%;
-        background: url("../images/parallax3.jpg") no-repeat bottom fixed;
+        background: url("../images/lying_on_the_jetty_mob.jpg") no-repeat bottom fixed;
     }
 
     #about-hero-outer {
