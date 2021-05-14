@@ -283,7 +283,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     height: 100%;    
-    padding-top: 110px;
+    padding-top: 90px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 40px;
@@ -499,7 +499,7 @@ hr {
     }
 
     .footer-spacer {
-        margin-bottom: 0px;
+        margin-bottom: 40px;
     }
 }
 
