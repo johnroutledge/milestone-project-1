@@ -27,7 +27,9 @@ nav {
     padding-left: 0;
     padding-right: 0;
     z-index: 999;
-    background-color: #519bea;
+    /* background-color: #519bea; */
+    /* background-color: #047bfa; */
+    background-color: #90bff1;
     margin-bottom: 0;
     border: 0;
     width: 100%;
@@ -41,19 +43,35 @@ nav {
 
 .navbar-nav {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bolder;
-    color: white;
+    /* font-weight: bolder; */
+    /* color: #047bfa; */
+    
+    /* color: white; */
 }
 
 .navbar .navbar-toggler {
     border: 0;
 }
 
+.navbar-dark .navbar-brand {
+    color: #212529;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #212529;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #212529;
+}
+
 .navbar-brand {
+    font-size: 1.5rem;
     letter-spacing: 4px;
     padding-left: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
+    /* text-transform: uppercase; */
+    color: #212529;
 }
 
 #navbar {
@@ -117,7 +135,8 @@ nav {
 .btn-outline-secondary {
     vertical-align: top;
     margin-top: 5px;
-    background-color: #047bfa;
+    /* background-color: #047bfa; */
+    background-color: #212529;
     color: white;
     border-color: white;
 }
@@ -203,7 +222,8 @@ nav {
 }
 
 .resource-item i, a {
-    color: #519bea;
+    
+    color: #047bfa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -213,60 +233,9 @@ nav {
 
 .resource-item i:hover, a:hover {
     text-decoration: none;
-    color: #047bfa;
+    color: #519bea;    
 }
 
-.footer-spacer {
-    margin-bottom: 50px;
-}
-
-/* FOOTER */
-
-footer {
-    background-color: #519bea;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    text-align: center;
-    height: 50px;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 99;
-}
-
-#footer {
-    max-width: 2000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#footer-register{
-    text-align: center;
-}
-
-#footer-copyright{
-    float: left;
-    font-size: 1rem;
-    padding-left: 10px;
-    padding-top: 12px;
-}
-
-.social-links i {
-    float: right;
-    margin-right: 10px;
-    margin-top: 10px;
-    font-size: 2rem;
-    color: #fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links i:hover {
-    color: grey;
-}
 
 /* VISA PAGE */
 
@@ -433,6 +402,61 @@ hr {
     animation-fill-mode: forwards;
 }
 
+.footer-spacer {
+    margin-bottom: 50px;
+}
+
+/* FOOTER */
+
+footer {
+    /* background-color: #519bea; */
+    /* background-color: #047bfa; */
+    background-color: #90bff1;
+    font-family: 'Open Sans', sans-serif;
+    /* color: white; */
+    color: #212529;
+    text-align: center;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+#footer {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer-register{
+    text-align: center;
+}
+
+#footer-copyright{
+    float: left;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.social-links i {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links i:hover {
+    color: grey;
+}
+
 /* REGISTER MODAL */
 
 .modal {
@@ -447,7 +471,8 @@ hr {
 .modal .btn-secondary {
     vertical-align: top;
     margin-top: 5px;
-    background-color: #047bfa;
+    /* background-color: #047bfa; */
+    background-color: #212529;
     color: white;
     border-color: white;
     font-size: 1rem;
