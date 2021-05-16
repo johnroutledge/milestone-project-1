@@ -1,3 +1,5 @@
+/*----------GLOBAL*/
+
 body {
     font-family: 'Schoolbell', cursive;
     font-size: 1rem;
@@ -8,7 +10,7 @@ body {
 .bb-hr {
     width: 60%;
     margin: 20px 0;
-    border-color: #519bea;
+    border-color: #61a8f5;
 }
 
 .container {
@@ -18,7 +20,20 @@ body {
     padding: 0;
 }
 
-/*NAVBAR*/
+.btn-outline-secondary {
+    vertical-align: top;
+    margin-top: 5px;
+    background-color: #212529;
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-secondary:hover {
+    background-color:#519bea;
+    color: white;
+}
+
+/*----------NAVBAR*/
 
 nav {
     position: fixed;
@@ -27,12 +42,17 @@ nav {
     padding-left: 0;
     padding-right: 0;
     z-index: 999;
-    /* background-color: #519bea; */
-    /* background-color: #047bfa; */
-    background-color: #90bff1;
+    background-color: #61a8f5;
     margin-bottom: 0;
     border: 0;
     width: 100%;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.5s;
 }
 
 #nav-container {
@@ -43,10 +63,6 @@ nav {
 
 .navbar-nav {
     font-family: 'Open Sans', sans-serif;
-    /* font-weight: bolder; */
-    /* color: #047bfa; */
-    
-    /* color: white; */
 }
 
 .navbar .navbar-toggler {
@@ -70,18 +86,10 @@ nav {
     font-size: 1.5rem;
     letter-spacing: 4px;
     padding-left: 10px;
-    /* text-transform: uppercase; */
     color: #212529;
 }
 
-#navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    transition: 0.5s;
-}
-
-/*INDEX PAGE*/
+/*----------INDEX PAGE*/
 
 .hero-outer {
     height: 500px;
@@ -90,7 +98,7 @@ nav {
     position: relative;
 }
 
-#index-hero-image{
+#index-hero-image {
     height: 500px;
     width: 100%;
     background: url("../images/on_the_jetty.jpg") no-repeat right center fixed;
@@ -130,24 +138,6 @@ nav {
     font-family: 'Schoolbell', cursive;
 }
 
-/*buttons*/
-
-.btn-outline-secondary {
-    vertical-align: top;
-    margin-top: 5px;
-    /* background-color: #047bfa; */
-    background-color: #212529;
-    color: white;
-    border-color: white;
-}
-
-.btn-outline-secondary:hover {
-    background-color:#519bea;
-    color: white;
-}
-
-/* info-section */
-
 #info-section {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -162,8 +152,6 @@ nav {
 #info-section p {
     font-family: 'Open Sans', sans-serif;
 }
-
-/*RESOURCES*/
 
 .resource-outer {
     width: 100%;
@@ -196,19 +184,6 @@ nav {
     font-family: 'Schoolbell', cursive;
 }
 
-.resource-desc {
-    background: url("../images/on_bikes.jpg") top;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 520px;
-    position: absolute;
-}
-
-.resource-container {
-    padding-top: 20px;
-}
-
 .resource-item {
     height: 168px;
     padding-top: 20px;
@@ -222,7 +197,6 @@ nav {
 }
 
 .resource-item i, a {
-    
     color: #047bfa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -236,8 +210,7 @@ nav {
     color: #519bea;    
 }
 
-
-/* VISA PAGE */
+/*----------VISA PAGE */
 
 .visa-page-image {
     background: url("../images/on_bikes.jpg") top;
@@ -246,7 +219,6 @@ nav {
     background-size: cover;
     height: 580px;
 }
-
 
 .visas-language-overlay {
     font-family: 'Open Sans', sans-serif;
@@ -282,7 +254,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* LANGUAGE PAGE */
+/*----------LANGUAGE PAGE*/
 
 .navspacer {
     padding-top: 66px;
@@ -313,7 +285,7 @@ hr {
     margin: 2px 0;
 }
 
-/* GALLERY PAGE */
+/*----------GALLERY PAGE*/
 
 #gallery-hero-outer {
     height: 500px;
@@ -333,7 +305,7 @@ hr {
 
 #gallery-spacer{
     height: 1px;
-    background-color: #047bfa;
+    background-color: #61a8f5;
 }
 
 #images {
@@ -354,37 +326,7 @@ hr {
     display: none;
 } 
 
-
-/* credit to: fullyworldwebtutorials */
-/* .gallery-row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-
-}
-
-.gallery-row .gallery-column {
-    flex: 33.33%;
-    width: auto;
-    overflow: hidden;
-    padding: 0 1px;
-    height: 100%;
-}
-
-.gallery-row .gallery-column img {
-    margin-top: 1px;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    filter: grayscale(1) brightness(0.75);
-    transition: 0.3s linear;
-}
-
-.gallery-row .gallery-column img:hover {
-    filter: grayscale(0) brightness(1);
-}  */
-
-/* ABOUT PAGE */
+/*----------ABOUT PAGE*/
 
 #about-hero-outer {
     height: 600px;
@@ -406,14 +348,11 @@ hr {
     margin-bottom: 50px;
 }
 
-/* FOOTER */
+/*----------FOOTER*/
 
 footer {
-    /* background-color: #519bea; */
-    /* background-color: #047bfa; */
-    background-color: #90bff1;
+    background-color: #61a8f5;
     font-family: 'Open Sans', sans-serif;
-    /* color: white; */
     color: #212529;
     text-align: center;
     height: 50px;
@@ -437,6 +376,7 @@ footer {
 #footer-copyright{
     float: left;
     font-size: 1rem;
+    font-weight: bold;
     padding-left: 10px;
     padding-top: 12px;
 }
@@ -446,7 +386,7 @@ footer {
     margin-right: 10px;
     margin-top: 10px;
     font-size: 2rem;
-    color: #fafafa;
+    color: #212529;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -457,7 +397,7 @@ footer {
     color: grey;
 }
 
-/* REGISTER MODAL */
+/*----------REGISTER MODAL*/
 
 .modal {
     font-family: 'Open Sans', sans-serif;
@@ -471,7 +411,6 @@ footer {
 .modal .btn-secondary {
     vertical-align: top;
     margin-top: 5px;
-    /* background-color: #047bfa; */
     background-color: #212529;
     color: white;
     border-color: white;
@@ -483,7 +422,7 @@ footer {
     color: white;
 }
 
-/* MEDIA QUERIES */
+/*----------MEDIA QUERIES*/
 
 @media screen and (min-width: 2000px) {
     #index-hero-image {
@@ -529,6 +468,10 @@ footer {
 }
 
 @media screen and (max-width: 1360px) {
+    .bb-hr {
+        width: 50%;
+        margin-left: 25%;
+    }
     .hero-outer {
         height: 460px;
     }
@@ -556,7 +499,6 @@ footer {
     .parallax-container {
         width: 100%;
         background: url("../images/on_bikes.jpg") no-repeat center fixed;
-        /* background-size: 100%; */
         padding: 0;
     }
 
@@ -565,7 +507,6 @@ footer {
     }
 
     .resource-overlay {
-        /* top: 80px; */
         padding-top: 20px;
         padding-left: 50px;
         padding-right: 50px;
@@ -630,7 +571,6 @@ footer {
     .parallax-container {
         width: 100%;
         background: url("../images/on_bikes_mob.jpg") no-repeat center fixed;
-        /* background-size: 100%; */
         padding: 0;
     }
 
@@ -719,7 +659,5 @@ footer {
     #about-hero-outer {
         height: 750px;
     }
-    
-
 }
 
