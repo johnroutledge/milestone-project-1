@@ -152,9 +152,9 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 |  YouTube icon in footer                       | Click          |  Navigate to Bilingual Boys YouTube page from all pages   | PASS          |
 |  Instagram icon in footer                     | Click          |  Navigate to Bilingual Boys Instagram page from all pages | PASS          |
 |  Facbeook icon in footer                      | Click          |  Navigate to Bilingual Boys Facebook page from all pages  | PASS          |
-|  Plane icon on visa page                      | Click          |  Navigate to GOV.UK pre visa checklis page                | PASS          |
-|  ID card icon on visa page                    | Click          |  Navigate to GOV.UK pre visa checklis page                | PASS          |
-|  XX icon on visa page                         | Click          |  Open GOV.UK pre visa checklis page in new tab            | PASS          |
+|  Plane icon on visa page                      | Click          |  Navigate to GOV.UK pre visa checklist page               | PASS          |
+|  ID card icon on visa page                    | Click          |  Navigate to GOV.UK pre visa checklist page               | PASS          |
+|  XX icon on visa page                         | Click          |  Open GOV.UK pre visa checklist page in new tab           | PASS          |
 |  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
 |  Trolley icon on language page                | Click          |  Open PDF file in new tab                                 | PASS          |
 |  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
