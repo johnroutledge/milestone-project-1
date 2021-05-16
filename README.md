@@ -191,10 +191,11 @@ Github repo.  However, doing the validation checks on the HTML files this way br
 Consequently the checks were done using the 'Validate by Direct Input' option. This did not result in the aforementioned Bootstrap CDN errors, but did produce warnings and errors for code written by myself. These were rectified straightforwardly and final checks were done resulting in no errors or warnings.  All checks on the CSS file were clear 
 on the first attempt.
 
-Testing Performance, Best Practices, Accessibility and SEO:
-This was done using Lighthouse in Google Chrome Devtools. On all pages, performance came back initially with a score under 90% due to image file sizes.  Having compressed the 
-Bilingual Boys navbar logo, all pages returned a performance score above 90% with the exception of the gallery page. The performance score of the gallery page was very low (31%) 
-due to the number of images being used.  Having compressed the images and deleted some unnecessary ones, running the test again resulted in a score of above 90%. Best Practices and Accessibility scores on all pages were above 90% and so not actioned.  SEO test figures were 100% on all pages.
+Testing Performance, Best Practices, Accessibility and SEO using Lighthouse in Google Chrome Devtools:
+Performance: On all pages, performance came back initially with a score under 90% due to image file sizes.  Having compressed the Bilingual Boys navbar logo, all pages returned a performance score above 90% with the exception of the gallery page. The performance score of the gallery page was very low (31%) due to the number of images being used. To rectify this all images were resized and compressed which resulted in a better score, but there was still room for improvement. I decided to resize all gallery images for mobile use (<700p pixels) and add CSS code to the media query. Having done this and deleting some unnecessary ones, running the test again resulted in a score of above 90%. 
+Accesibility: Accessibility scores on all pages were above 90%. The one warning which needed to be addresses in terms of accessibility was the contrast between the background and font colours of the navbar and footer.  With the original colours of XXX and white, the contrast was too low for people with limited vision. To rectify this, I chose a lighter blue for the background and changed the font colour to black. This resulted in a much better contrast rating and consequently increased the accessibility score of the website.
+Best Practices: These came back as 93% on all pages and so no changes were made.
+SEO: SEO test figures were 100% on all pages.
 
 
 ## Deployment 
