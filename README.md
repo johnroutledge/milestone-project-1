@@ -137,35 +137,35 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 |  Test Label                                   | Action         | Expected Outcome                                          | Test Outcome  |
 |-----------------------------------------------|----------------|-----------------------------------------------------------|---------------|
 |  Bilingual Boys navbar icon                   | Click          |  Navigate to home page from all pages                     | PASS          |
-|  Bilingual Boys navbar option                 | Click          |  Navigate to home page from all pages                     |               |
-|  Home navbar option                           |  Click         |  Navigate to home page from all pages                     |               |
-|  Visas navbar option                          | Click          |  Navigate to home page from all pages                     |               |
-|  Language navbar option                       | Click          |  Navigate to home page from all pages                     |               |
-|  Gallery navbar option                        | Click          |  Navigate to home page from all pages                     |               |
-|  About navbar option                          | Click          |  Navigate to home page from all pages                     |               |
-|  Navbar                                       | Scroll down/up |  Smooth hide/appear                                       |               |
-|  Index page hero image                        | Scroll down/up |  Fixed and behind subsequent sections                     |               |
-|  Visa icon in resource section                | Click          |  Navigate to visa page                                    |               |
-|  Language icon in resource section            | Click          |  Navigate to language                                     |               |
-|  Gallery icon in resource section             | Click          |  Navigate to gallery                                      |               |
-|  Register button in footer                    | Click          |  Navigate to register modal from all pages                |               |
-|  YouTube icon in footer                       | Click          |  Navigate to Bilingual Boys YouTube page from all pages   |               |
-|  Instagram icon in footer                     | Click          |  Navigate to Bilingual Boys Instagram page from all pages |               |
-|  Facbeook icon in footer                      | Click          |  Navigate to Bilingual Boys Facebook page from all pages  |               |
-|  Plane icon on visa page                      | Click          |  Navigate to GOV.UK pre visa checklis page                |               |
-|  ID card icon on visa page                    | Click          |  Navigate to GOV.UK pre visa checklis page                |               |
-|  XX icon on visa page                         | Click          |  Open GOV.UK pre visa checklis page in new tab            |               |
-|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 |               |
-|  Trolley icon on language page                | Click          |  Open PDF file in new tab                                 |               |
-|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 |               |
-|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 |               |
-|  Gallery page hero image                      | Scroll down/up |  Fixed and behind subsequent sections                     |               |
-|  Submit button in register modal              | Click          |  Validate all fields correctly (names & email)            |               |
-|  Submit button in register modal              | Click          |  Post data to Code Instute and open results in new tab    |               |
-|  Media Query mobile screen size               | Resize screen  |  All pages should respond and be visible from iPhone 5    |               |
-|  Media Query tablet screen size               | Resize screen  |  All pages should respond and be visible from iPad        |               |
-|  Media Query desktop screen size              | Resize screen  |  All pages should respond and be visible from iPhone 5    |               |
-|  Media Query 5k screen size                   | Resize screen  |  All pages should respond and be visible on 5k screen     |               |
+|  Bilingual Boys navbar option                 | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Home navbar option                           | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Visas navbar option                          | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Language navbar option                       | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Gallery navbar option                        | Click          |  Navigate to home page from all pages                     | PASS          |
+|  About navbar option                          | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Navbar                                       | Scroll down/up |  Smooth hide/appear                                       | PASS          |
+|  Index page hero image                        | Scroll down/up |  Fixed and behind subsequent sections                     | PASS          |
+|  Visa icon in resource section                | Click          |  Navigate to visa page                                    | PASS          |
+|  Language icon in resource section            | Click          |  Navigate to language                                     | PASS          |
+|  Gallery icon in resource section             | Click          |  Navigate to gallery                                      | PASS          |
+|  Register button in footer                    | Click          |  Navigate to register modal from all pages                | PASS          |
+|  YouTube icon in footer                       | Click          |  Navigate to Bilingual Boys YouTube page from all pages   | PASS          |
+|  Instagram icon in footer                     | Click          |  Navigate to Bilingual Boys Instagram page from all pages | PASS          |
+|  Facbeook icon in footer                      | Click          |  Navigate to Bilingual Boys Facebook page from all pages  | PASS          |
+|  Plane icon on visa page                      | Click          |  Navigate to GOV.UK pre visa checklis page                | PASS          |
+|  ID card icon on visa page                    | Click          |  Navigate to GOV.UK pre visa checklis page                | PASS          |
+|  XX icon on visa page                         | Click          |  Open GOV.UK pre visa checklis page in new tab            | PASS          |
+|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
+|  Trolley icon on language page                | Click          |  Open PDF file in new tab                                 | PASS          |
+|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
+|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
+|  Gallery page hero image                      | Scroll down/up |  Fixed and behind subsequent sections                     | PASS          |
+|  Submit button in register modal              | Click          |  Validate all fields correctly (names & email)            | PASS          |
+|  Submit button in register modal              | Click          |  Post data to Code Instute and open results in new tab    | PASS          |
+|  Media Query mobile screen size               | Resize screen  |  All pages should respond and be visible from iPhone 5    | PASS          |
+|  Media Query tablet screen size               | Resize screen  |  All pages should respond and be visible from iPad        | PASS          |
+|  Media Query desktop screen size              | Resize screen  |  All pages should respond and be visible from iPhone 5    | PASS          |
+|  Media Query 5k screen size                   | Resize screen  |  All pages should respond and be visible on 5k screen     | PASS          |
 
 
 Testing User Stories:
