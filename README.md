@@ -168,7 +168,7 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 |  Media Query 5k screen size                   | Resize screen  |  All pages should respond and be visible on 5k screen     | PASS          |
 
 
-Testing User Stories:
+**Testing User Stories**
 1. As someone thinking of moving to the UK, I want to see what life can be like so that I can make a better informed decision.
 * Yes, they could navigate to the gallery page and get a feel of UK life from the photos.
 2. As someone thinking of moving to the UK, I want tips on the immigration process so that I can budget correctly and save time on paperwork.
@@ -182,20 +182,20 @@ Testing User Stories:
 6. As an interested observer, I want to be able to get the latest updates on social media so I can get the latest news and photos.
 * Yes, links to the BIlingual Boys social media pages are available on every page, as is the button so they can register for updates.
 
-Testing broswer compataiblity:
+**Testing Browser Compatability**
 The website was successfully opened and rendered correctly in Chrome, Firefox and Safari.
 
-Code validation:
+**Code Validation**
 Both the HTML and CSS were validated using the W3C Markup Validation Service. This was initially done using the 'Validate by URI' option and pasting the link to the
 Github repo.  However, doing the validation checks on the HTML files this way brought up dozens of errors regarding the Bootstrap CDN which were impossible to correct.  
 Consequently the checks were done using the 'Validate by Direct Input' option. This did not result in the aforementioned Bootstrap CDN errors, but did produce warnings and errors for code written by myself. These were rectified straightforwardly and final checks were done resulting in no errors or warnings.  All checks on the CSS file were clear 
 on the first attempt.
 
-Testing Performance, Best Practices, Accessibility and SEO using Lighthouse in Google Chrome Devtools:
-Performance: On all pages, performance came back initially with a score under 90% due to image file sizes.  Having compressed the Bilingual Boys navbar logo, all pages returned a performance score above 90% with the exception of the gallery page. The performance score of the gallery page was very low (31%) due to the number of images being used. To rectify this all images were resized and compressed which resulted in a better score, but there was still room for improvement. I decided to resize all gallery images for mobile use (<700p pixels) and add CSS code to the media query. Having done this and deleting some unnecessary ones, running the test again resulted in a score of above 90%. 
-Accesibility: Accessibility scores on all pages were above 90%. The one warning which needed to be addresses in terms of accessibility was the contrast between the background and font colours of the navbar and footer.  With the original colours of XXX and white, the contrast was too low for people with limited vision. To rectify this, I chose a lighter blue for the background and changed the font colour to black. This resulted in a much better contrast rating and consequently increased the accessibility score of the website.
-Best Practices: These came back as 93% on all pages and so no changes were made.
-SEO: SEO test figures were 100% on all pages.
+**Testing with Lighthouse in Google Chrome Devtools**
+**Performance:** On all pages, performance came back initially with a score under 90% due to image file sizes.  Having compressed the Bilingual Boys navbar logo, all pages returned a performance score above 90% with the exception of the gallery page. The performance score of the gallery page was very low (31%) due to the number of images being used. To rectify this all images were resized and compressed which resulted in a better score, but there was still room for improvement. I decided to resize all gallery images for mobile use (<700p pixels) and add CSS code to the media query. Having done this and deleting some unnecessary ones, running the test again resulted in a score of above 90%. 
+**Accesibility:** Accessibility scores on all pages were above 90%. The one warning which needed to be addresses in terms of accessibility was the contrast between the background and font colours of the navbar and footer.  With the original colours of XXX and white, the contrast was too low for people with limited vision. To rectify this, I chose a lighter blue for the background and changed the font colour to black. This resulted in a much better contrast rating and consequently increased the accessibility score of the website.
+**Best Practices:** These came back as 93% on all pages and so no changes were made.
+**SEO:** SEO test figures were 100% on all pages.
 
 Notable bug fixes:
 The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example). However, once zoomed in, it produced gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
