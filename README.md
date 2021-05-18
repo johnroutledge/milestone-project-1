@@ -169,10 +169,10 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 |  Gallery page hero image                      | Scroll down/up |  Fixed and behind subsequent sections                     | PASS          |
 |  Submit button in register modal              | Click          |  Validate all fields correctly (names & email)            | PASS          |
 |  Submit button in register modal              | Click          |  Post data to Code Instute and open results in new tab    | PASS          |
-|  Media Query mobile screen size               | Resize screen  |  All pages should respond and be visible from iPhone 5    | PASS          |
-|  Media Query tablet screen size               | Resize screen  |  All pages should respond and be visible from iPad        | PASS          |
-|  Media Query desktop screen size              | Resize screen  |  All pages should respond and be visible from iPhone 5    | PASS          |
-|  Media Query 5k screen size                   | Resize screen  |  All pages should respond and be visible on 5k screen     | PASS          |
+|  Media Query mobile screen size               | Resize screen  |  All pages should display correctly on iPhone 5           | PASS          |
+|  Media Query tablet screen size               | Resize screen  |  All pages should display correctly on iPad               | PASS          |
+|  Media Query desktop screen size              | Resize screen  |  All pages should display correctly on 14 inch screen     | PASS          |
+|  Media Query 5k screen size                   | Resize screen  |  All pages should display correctly on 5k screen          | PASS          |
 
 
 **Testing User Stories**
@@ -272,7 +272,7 @@ Pushing moves your work from the staging area to your repository.
 
 - Javascript for the scroll up/down navbar was taken from w3schools.com
 - Matt Rudge at Code Institute for the basics behind the Bootstrap Grid and also collapsible navbar.
-- Brian O'Grady at Code Institute for the 'hero-zoom' idea and code.
+- Brian O'Grady at Code Institute for the 'hero-zoom' idea and code from the 'Love Running' tutorial.
 
 ### Acknowledgements
 
