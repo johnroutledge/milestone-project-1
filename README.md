@@ -55,6 +55,7 @@ Bilingual Boys is the ideal site for such people because:
 
 ## UX
 **Strategy**
+
 User needs:  visa/immigration advice, basic English language tips/help, general interest in life in the UK
 
 Having charted various opportunities/problems with associated perceived values of importance and viability, I decided that 
@@ -65,6 +66,7 @@ With the website being aimed at Thai/English families, it should have to text op
 Business objectives: make money through sales of English lessons, primarily to the Thai market. 
 
 **Scope**
+
 User Stories:
 1. As someone thinking of moving to the UK, I want to see what life can be like so that I can make a better informed decision.
 1. As someone thinking of moving to the UK, I want tips on the immigration process so that I can budget correctly and save time on paperwork.
@@ -74,27 +76,30 @@ User Stories:
 1. As an interested observer, I want to be able to get the latest updates on social media so I can get the latest news and photos.
 
 **Structure**
+
 To make sure the content/functionality is intuitive to navigate, I maintained consistency throughout the different pages 
 by using the same layout/structure (landing page sections matched the order of menu items) and header and footer elements.
 
 On the landing page, I used content hinting so that users would be encouraged to scroll further down the page.
 
 **Skeleton**
+
 The key reasoning behind the design of the landing page was to disclose information progressively by giving snippets of what 
 lay on other pages.  By using icons and breaking it into three main sections which mirror the three main user/business needs,
 this also minimized cognitive overload.
 
 By being consistent with the design and simplicity of all pages, it is both predictable and intuitive, and therefore increases the overall UX.
 
-(wireframes)
 
 **Surface**
+
 The 'Schoolbell' font was chosen to tie in with a young family feel, while the 'open sans' font was chosen to convey a modern and informative tone.  The images chosen 
 for the parallax scrolling (which also match the pages they navigate to) wanted to maintain the family feel and also to help 
-the user picture themselves living in the UK.  The colour scheme was chosen as it fits in with the eponymous boys and is also considered a reliable and trustworthy colour
+the user picture themselves living in the UK.  The colour scheme was chosen as it fits in with the eponymous boys and blue is also considered a reliable and trustworthy colour
 which we want to reflect in the quality of the website's content.
 
 ## Technologies Employed
+
 * HTML
 * CSS
 * JavaScript
@@ -105,14 +110,15 @@ which we want to reflect in the quality of the website's content.
 * Lighthouse (in Google Chrome Devtools)
 
 ## Features
+
 **Implemented**
 * The navbar hides/appears smoothly on scroll down/up (credits in the code) to give a modern feel and also to maximize the amount of screen real estate.
 * The navbar collapses to a burger menu on smaller screens to further increase the available screen area.
 * The same footer appears on every page to maintain consitency and give quick access to relevant social media links.
 * The footer also includes a centrally located call-to-action button which encourages people to register for free.
 * All pages are genarally laid out to conform to the F-shape which people usually scan a website (left-righ-left-down): hero image with 
-a jumbotron containing key imformation overlaid to the left, then more decriptive content at the bottom.
-* Jumbotrons contain clear, concise information to avoid cognitive overload.
+an overlay containing key imformation overlaid to the left, then more decriptive content at the bottom.
+* Overlays contain clear, concise information to avoid cognitive overload.
 * The home page has a clear call to action button placed stragically below rhetorical questions in order to encourage users to subscribe.
 * The home page incorporates content hinting by partially revealing an element just above the fold.
 * The home page uses a parallax effect to continue the modern feel.
@@ -124,6 +130,7 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 * Payment system for English language lessons to enable business objectives to be met.
 
 ## Technologies Employed
+
 * HTML
 * CSS
 * JavaScript
@@ -154,7 +161,7 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 |  Facbeook icon in footer                      | Click          |  Navigate to Bilingual Boys Facebook page from all pages  | PASS          |
 |  Plane icon on visa page                      | Click          |  Navigate to GOV.UK pre visa checklist page               | PASS          |
 |  ID card icon on visa page                    | Click          |  Navigate to GOV.UK pre visa checklist page               | PASS          |
-|  XX icon on visa page                         | Click          |  Open GOV.UK pre visa checklist page in new tab           | PASS          |
+|  Check icon on visa page                      | Click          |  Open GOV.UK pre visa checklist page in new tab           | PASS          |
 |  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
 |  Trolley icon on language page                | Click          |  Open PDF file in new tab                                 | PASS          |
 |  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
@@ -169,6 +176,7 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 
 
 **Testing User Stories**
+
 1. As someone thinking of moving to the UK, I want to see what life can be like so that I can make a better informed decision.
 * Yes, they could navigate to the gallery page and get a feel of UK life from the photos.
 2. As someone thinking of moving to the UK, I want tips on the immigration process so that I can budget correctly and save time on paperwork.
@@ -183,21 +191,25 @@ a jumbotron containing key imformation overlaid to the left, then more decriptiv
 * Yes, links to the BIlingual Boys social media pages are available on every page, as is the button so they can register for updates.
 
 **Testing Browser Compatability**
+
 The website was successfully opened and rendered correctly in Chrome, Firefox and Safari.
 
 **Code Validation**
+
 Both the HTML and CSS were validated using the W3C Markup Validation Service. This was initially done using the 'Validate by URI' option and pasting the link to the
 Github repo.  However, doing the validation checks on the HTML files this way brought up dozens of errors regarding the Bootstrap CDN which were impossible to correct.  
 Consequently the checks were done using the 'Validate by Direct Input' option. This did not result in the aforementioned Bootstrap CDN errors, but did produce warnings and errors for code written by myself. These were rectified straightforwardly and final checks were done resulting in no errors or warnings.  All checks on the CSS file were clear 
 on the first attempt.
 
 **Testing with Lighthouse in Google Chrome Devtools**
+
 * Performance: On all pages, performance came back initially with a score under 90% due to image file sizes.  Having compressed the Bilingual Boys navbar logo, all pages returned a performance score above 90% with the exception of the gallery page. The performance score of the gallery page was very low (31%) due to the number of images being used. To rectify this all images were resized and compressed which resulted in a better score, but there was still room for improvement. I decided to resize all gallery images for mobile use (<700p pixels) and add CSS code to the media query. Having done this and deleting some unnecessary ones, running the test again resulted in a score of above 90%. 
 * Accesibility: Scores on all pages were above 90%. The one warning which needed to be addresses in terms of accessibility was the contrast between the background and font colours of the navbar and footer.  With the original colours of XXX and white, the contrast was too low for people with limited vision. To rectify this, I chose a lighter blue for the background and changed the font colour to black. This resulted in a much better contrast rating and consequently increased the accessibility score of the website.
 * Best Practices: These came back as 93% on all pages and so no changes were made.
 * SEO: SEO test figures were 100% on all pages.
 
 **Notable bug fixes:**
+
 The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example). However, once zoomed in, it produced gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
 
 
@@ -246,15 +258,18 @@ Pushing moves your work from the staging area to your repository.
 ## Credits
 
 ### Content
+
 - All copy for the entire website (excluding links) was created by myself.
 - All of the English lessons files were created by my wife, Chonchanok Routledge.
 - All of the Bilingual Boys' sister social media sites (Facebook, Instagram and YouTube), were also set up by my wife, Chonchanok Routledge. 
 
 ### Media
+
 - The Bilingual Boys 'tinws on bikes' logo was designed by Tarinee Insee especially for this website.
 - All photos used in the website were either taken by my wife, Chonchanok Routledge, or myself.
 
 ### Code
+
 - Javascript for the scroll up/down navbar was taken from XXXXXXXXX
 - Matt Rudge at Code Institute for the basics behind the Bootstrap Grid and also collapsible navbar.
 - Brian O'Grady at Code Institute for the 'hero-zoom' idea and code.
