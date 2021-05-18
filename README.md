@@ -23,9 +23,9 @@ speakers alike.
 
 The ideal customer for the website would be:
 * Thai
-* Has children
+* Someone who has children
 * Looking to emigrate to the UK
-* Someone who wants to improve his/her/their children's English
+* A thai who wants to improve his/her/their children's English
 
 People visiting this website are looking for:
 * Guidance on the UK immigration process
@@ -197,6 +197,9 @@ Accesibility: Accessibility scores on all pages were above 90%. The one warning 
 Best Practices: These came back as 93% on all pages and so no changes were made.
 SEO: SEO test figures were 100% on all pages.
 
+Notable bug fixes:
+The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example). However, once zoomed in, it produced gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
+
 
 ## Deployment 
 
@@ -230,13 +233,13 @@ Pushing moves your work from the staging area to your repository.
 
 ### The project can be deployed by following these steps:
 
-1 Log into GitHub
-1 Click "Settings" in the menu above the Repository.
-1 Scroll down through the settings to the "GitHub Pages" Section.
-1 Underneath "Source", click the dropdown labelled "None" and then select "Master Branch".
-1 The page should refresh automatically and then deploy the website.
-1 If the page refuses to load, scroll down to "template" and select a template underneath "source". 
-1 Scroll back down to the section entitled "GitHub Pages" and the link to the deployed website should be available.
+1. Log into GitHub
+1. Click "Settings" in the menu above the Repository.
+1. Scroll down through the settings to the "GitHub Pages" Section.
+1. Underneath "Source", click the dropdown labelled "None" and then select "Master Branch".
+1. The page should refresh automatically and then deploy the website.
+1. If the page refuses to load, scroll down to "template" and select a template underneath "source". 
+1. Scroll back down to the section entitled "GitHub Pages" and the link to the deployed website should be available.
 
 
 
@@ -248,12 +251,13 @@ Pushing moves your work from the staging area to your repository.
 - All of the Bilingual Boys' sister social media sites (Facebook, Instagram and YouTube), were also set up by my wife, Chonchanok Routledge. 
 
 ### Media
+- The Bilingual Boys 'tinws on bikes' logo was designed by Tarinee Insee especially for this website.
 - All photos used in the website were either taken by my wife, Chonchanok Routledge, or myself.
 
 ### Code
 - Javascript for the scroll up/down navbar was taken from XXXXXXXXX
-- CSS code for the lightbox effect on the gallery page was taken from XXXXXXXXXXXXX
-- Matt Rudge for the basics behind the Bootstrap Grid and also collapsible navbar
+- Matt Rudge at Code Institute for the basics behind the Bootstrap Grid and also collapsible navbar.
+- Brian O'Grady at Code Institute for the 'hero-zoom' idea and code.
 
 ### Acknowledgements
 
