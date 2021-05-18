@@ -192,7 +192,7 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 
 **Testing Browser Compatability**
 
-The website was successfully opened and rendered correctly in Chrome, Firefox and Safari.
+The website was successfully opened and rendered correctly in Chrome (both desktop and mobile versions), Edge and Safari.
 
 **Code Validation**
 
