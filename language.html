@@ -29,9 +29,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="active nav-item ml-2"><a class="nav-link" href="index.html" aria-label="current page">Home</a></li>
+                    <li class="nav-item ml-2"><a class="nav-link" href="index.html" aria-label="link to home page">Home</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="visas.html" aria-label="link to visas page">Visas</a></li>
-                    <li class="nav-item ml-2"><a class="nav-link" href="language.html" aria-label="link to language lessons page">Language</a></li>
+                    <li class="active nav-item ml-2"><a class="nav-link" href="language.html" aria-label="current page">Language</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="gallery.html" aria-label="link to gallery page">Gallery</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="about.html" aria-label="link to about page">About</a></li>
                 </ul>
@@ -40,9 +40,6 @@
     </nav>
 
     <div class="container">
-
-        <!--languages-->
-        <!-- <div class="navspacer"></div> -->
         <div class="row no-gutters outer">
             <div class="col-12 col-lg-6 language-page-image">
                 <div class="visas-language-overlay">
@@ -97,7 +94,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     
     <div class="footer-spacer"></div>
@@ -160,19 +156,18 @@
     <script src="https://kit.fontawesome.com/e7868c6bc8.js" crossorigin="anonymous"></script>
     
     
-    <!-- HIDING NAVBAR (NEEDS CREDIT)-->
+    <!-- HIDING NAVBAR (Thanks to: w3.schools.com)-->
     <script>  
-        var lastScrollTop = 0;
-            navbar = document.getElementById("navbar");
-            window.addEventListener("scroll", function(){
-            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            if (scrollTop > lastScrollTop){
-                navbar.style.top="-100px";
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
             } else {
-                navbar.style.top="0";
+                document.getElementById("navbar").style.top = "-70px";
             }
-            lastScrollTop = scrollTop;
-        })
+            prevScrollpos = currentScrollPos;
+        }
     </script>
 </body>
 </html>
