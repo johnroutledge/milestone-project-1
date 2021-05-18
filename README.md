@@ -197,7 +197,7 @@ on the first attempt.
 * Best Practices: These came back as 93% on all pages and so no changes were made.
 * SEO: SEO test figures were 100% on all pages.
 
-Notable bug fixes:
+**Notable bug fixes:**
 The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example). However, once zoomed in, it produced gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
 
 
