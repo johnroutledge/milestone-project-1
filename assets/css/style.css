@@ -33,6 +33,20 @@ body {
     color: white;
 }
 
+.link-item i {
+    color: #047bfa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    text-decoration: none;
+}
+
+.link-item i:hover {
+    text-decoration: none;
+    color: #212529;    
+}
+
 /*----------NAVBAR*/
 
 nav {
@@ -162,7 +176,7 @@ nav {
 
 .parallax-container {
     width: 100%;
-    background: url("../images/on_bikes.jpg") no-repeat left fixed;
+    background: url("../images/lying_on_the_jetty.jpg") no-repeat bottom left fixed;
     background-size: 50%;
     padding: 0;
 }
@@ -194,20 +208,6 @@ nav {
 
 .resource-item p {
     font-family: 'Open Sans', sans-serif;
-}
-
-.resource-item i, a {
-    color: #047bfa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    text-decoration: none;
-}
-
-.resource-item i:hover, a:hover {
-    text-decoration: none;
-    color: #519bea;    
 }
 
 /*----------VISA PAGE */
@@ -477,7 +477,7 @@ footer {
     }
 
     #index-hero-image {
-       background: url("../images/on_the_jetty.jpg") no-repeat bottom right fixed;
+       background: url("../images/on_the_jetty.jpg") no-repeat top right fixed;
        height: 460px;
     }
 
@@ -498,7 +498,7 @@ footer {
 
     .parallax-container {
         width: 100%;
-        background: url("../images/on_bikes.jpg") no-repeat center fixed;
+        background: url("../images/bikes_by_the_loch_comp.jpg") no-repeat center fixed;
         padding: 0;
     }
 
@@ -570,7 +570,7 @@ footer {
 
     .parallax-container {
         width: 100%;
-        background: url("../images/on_bikes_mob.jpg") no-repeat center fixed;
+        background: url("../images/lying_on_the_jetty_mob.jpg") no-repeat bottom fixed;
         padding: 0;
     }
 
