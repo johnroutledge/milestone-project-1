@@ -94,6 +94,14 @@ nav {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #212529;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: whitesmoke;
 }
 
 .navbar-brand {
@@ -101,7 +109,16 @@ nav {
     letter-spacing: 4px;
     padding-left: 10px;
     color: #212529;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
+.navbar-brand i:hover {
+    color: whitesmoke;
+}
+
 
 /*----------INDEX PAGE*/
 
@@ -303,16 +320,17 @@ hr {
     animation-fill-mode: forwards;
 }
 
-#gallery-spacer{
+/* #gallery-spacer{
     height: 1px;
     background-color: #61a8f5;
-}
+} */
 
 #images {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    margin-top: 2px;
     position: relative;
     z-index: 2;
 }
@@ -394,7 +412,7 @@ footer {
 }
 
 .social-links i:hover {
-    color: grey;
+    color: whitesmoke;
 }
 
 /*----------REGISTER MODAL*/

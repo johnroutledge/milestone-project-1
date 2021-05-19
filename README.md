@@ -144,31 +144,38 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 |  Test Label                                   | Action         | Expected Outcome                                          | Test Outcome  |
 |-----------------------------------------------|----------------|-----------------------------------------------------------|---------------|
 |  Bilingual Boys navbar icon                   | Click          |  Navigate to home page from all pages                     | PASS          |
-|  Bilingual Boys navbar option                 | Click          |  Navigate to home page from all pages                     | PASS          |
-|  Home navbar option                           | Click          |  Navigate to home page from all pages                     | PASS          |
-|  Visas navbar option                          | Click          |  Navigate to home page from all pages                     | PASS          |
-|  Language navbar option                       | Click          |  Navigate to home page from all pages                     | PASS          |
-|  Gallery navbar option                        | Click          |  Navigate to home page from all pages                     | PASS          |
-|  About navbar option                          | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Bilingual Boys navbar link                   | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Home navbar link                             | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Visas navbar link                            | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Language navbar link                         | Click          |  Navigate to home page from all pages                     | PASS          |
+|  Gallery navbar link                          | Click          |  Navigate to home page from all pages                     | PASS          |
+|  About navbar link                            | Click          |  Navigate to home page from all pages                     | PASS          |
+|  All navbar links                             | Hover          |  Fade to different font color on all pages                | PASS          |
 |  Navbar                                       | Scroll down/up |  Smooth hide/appear                                       | PASS          |
+|  Index page hero image                        | Page load      |  Smooth zoom out                                          | PASS          |
 |  Index page hero image                        | Scroll down/up |  Fixed and behind subsequent sections                     | PASS          |
 |  Visa icon in resource section                | Click          |  Navigate to visa page                                    | PASS          |
-|  Language icon in resource section            | Click          |  Navigate to language                                     | PASS          |
-|  Gallery icon in resource section             | Click          |  Navigate to gallery                                      | PASS          |
+|  Language icon in resource section            | Click          |  Navigate to language page                                | PASS          |
+|  Gallery icon in resource section             | Click          |  Navigate to gallery page                                 | PASS          |
 |  Register button in footer                    | Click          |  Navigate to register modal from all pages                | PASS          |
 |  YouTube icon in footer                       | Click          |  Navigate to Bilingual Boys YouTube page from all pages   | PASS          |
 |  Instagram icon in footer                     | Click          |  Navigate to Bilingual Boys Instagram page from all pages | PASS          |
 |  Facbeook icon in footer                      | Click          |  Navigate to Bilingual Boys Facebook page from all pages  | PASS          |
-|  Plane icon on visa page                      | Click          |  Navigate to GOV.UK pre visa checklist page               | PASS          |
-|  ID card icon on visa page                    | Click          |  Navigate to GOV.UK pre visa checklist page               | PASS          |
-|  Check icon on visa page                      | Click          |  Open GOV.UK pre visa checklist page in new tab           | PASS          |
-|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
-|  Trolley icon on language page                | Click          |  Open PDF file in new tab                                 | PASS          |
-|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
-|  Handshake icon on language page              | Click          |  Open PDF file in new tab                                 | PASS          |
+|  All social media icons in footer             | Hover          |  Fade to different font color on all pages                | PASS          |
+|  Airplane icon on visa page                   | Click          |  Open GOV.UK visa eligibility page in new tab             | PASS          |
+|  123 list icon on visa page                   | Click          |  Open GOV.UK family visa application page in new tab      | PASS          |
+|  Hospital bed icon on visa page               | Click          |  Open GOV.UK NHS surcharge page in new tab                | PASS          |
+|  Lightbulb icon on language page              | Click          |  Open Top Ten Tips PDF file in new tab                    | PASS          |
+|  Thumbs up icon on language page              | Click          |  Open Positive Language PDF file in new tab               | PASS          |
+|  Tick icon on language page                   | Click          |  Open Daily Routine Language PDF file in new tab          | PASS          |
+|  Question mark icon on language page          | Click          |  Open Permission Language PDF file in new tab             | PASS          |
+|  Gallery page hero image                      | Page load      |  Smooth zoom out                                          | PASS          |
 |  Gallery page hero image                      | Scroll down/up |  Fixed and behind subsequent sections                     | PASS          |
+|  About page hero image                        | Page load      |  Smooth zoom out                                          | PASS          |
 |  Submit button in register modal              | Click          |  Validate all fields correctly (names & email)            | PASS          |
 |  Submit button in register modal              | Click          |  Post data to Code Instute and open results in new tab    | PASS          |
+|  Bilingual Boys navbar icon                   | Open on mobile |  Disappear from view                                      | PASS          |
+|  Home, Visas, Language, Gallery, About links  | Open on mobile |  Collapse to hamburger icon                               | PASS          |
 |  Media Query mobile screen size               | Resize screen  |  All pages should display correctly on iPhone 5           | PASS          |
 |  Media Query tablet screen size               | Resize screen  |  All pages should display correctly on iPad               | PASS          |
 |  Media Query desktop screen size              | Resize screen  |  All pages should display correctly on 14 inch screen     | PASS          |
@@ -204,13 +211,13 @@ on the first attempt.
 **Testing with Lighthouse in Google Chrome Devtools**
 
 * Performance: On all pages, performance came back initially with a score under 90% due to image file sizes.  Having compressed the Bilingual Boys navbar logo, all pages returned a performance score above 90% with the exception of the gallery page. The performance score of the gallery page was very low (31%) due to the number of images being used. To rectify this all images were resized and compressed which resulted in a better score, but there was still room for improvement. I decided to resize all gallery images for mobile use (<700p pixels) and add CSS code to the media query. Having done this and deleting some unnecessary ones, running the test again resulted in a score of above 90%. 
-* Accesibility: Scores on all pages were above 90%. The one warning which needed to be addresses in terms of accessibility was the contrast between the background and font colours of the navbar and footer.  With the original colours of XXX and white, the contrast was too low for people with limited vision. To rectify this, I chose a lighter blue for the background and changed the font colour to black. This resulted in a much better contrast rating and consequently increased the accessibility score of the website.
+* Accesibility: Scores on all pages were above 90%. The one warning which needed to be addresses in terms of accessibility was the contrast between the background and font colours of the navbar and footer.  With the original font colour of white on the current blue background, the contrast was too low for people with limited vision. To rectify this, I changed the font colour to black. This resulted in a much better contrast rating and consequently increased the accessibility score of the website.
 * Best Practices: These came back as 93% on all pages and so no changes were made.
 * SEO: SEO test figures were 100% on all pages.
 
 **Notable bug fixes:**
 
-The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example). However, once zoomed in, it produced gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
+The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example) which produced unsightly gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
 
 
 ## Deployment 
