@@ -33,6 +33,7 @@ body {
     color: white;
 }
 
+/*--Transition code adapted from Bootstrap 4 Mini Project by Matt Rudge at Code Institute--*/
 .link-item i {
     color: #047bfa;
     transition: all 0.35s ease-in-out;
@@ -92,6 +93,7 @@ nav {
     font-weight: bold;
 }
 
+/*--Transition code adapted from Bootstrap 4 Mini Project by Matt Rudge at Code Institute--*/
 .navbar-dark .navbar-nav .nav-link {
     color: #212529;
     transition: all 0.35s ease-in-out;
@@ -104,6 +106,7 @@ nav {
     color: whitesmoke;
 }
 
+/*--Transition code adapted from Bootstrap 4 Mini Project by Matt Rudge at Code Institute--*/
 .navbar-brand {
     font-size: 1.5rem;
     letter-spacing: 4px;
@@ -139,6 +142,7 @@ nav {
     animation-fill-mode: forwards;
 }
 
+/*--Hero-zoom code adapted from Love Running tutorial by Brian O'Grady at Code Institute--*/
 @keyframes hero-zoom {
     from{
         transform: scale(1.1);
@@ -320,11 +324,7 @@ hr {
     animation-fill-mode: forwards;
 }
 
-/* #gallery-spacer{
-    height: 1px;
-    background-color: #61a8f5;
-} */
-
+/*--Gallery layout code adapted from Love Running tutorial by Brian O'Grady at Code Institute--*/
 #images {
     clear: both;
     line-height: 0;
@@ -399,6 +399,7 @@ footer {
     padding-top: 12px;
 }
 
+/*--Transition code adapted from Bootstrap 4 Mini Project by Matt Rudge at Code Institute--*/
 .social-links i {
     float: right;
     margin-right: 10px;
