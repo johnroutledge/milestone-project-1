@@ -491,6 +491,16 @@ footer {
         width: 50%;
         margin-left: 25%;
     }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0; 
+    }
+     
+    .row {
+        margin-left: 0;
+        margin-right: 0; 
+    }
     .hero-outer {
         height: 460px;
     }
@@ -546,7 +556,10 @@ footer {
 }
 
 @media screen and (max-width: 700px){
-    
+    .bb-hr {
+        margin-left: 0;
+    }
+
     .nav-link {
         text-align: right;
         margin-right: 10px;
@@ -565,6 +578,7 @@ footer {
         font-family: 'Open Sans', sans-serif;
         width: 100%;
         padding-left: 10px;
+        padding-right: 10px;
         top: 80px;
         text-align: left;
     }
@@ -572,7 +586,7 @@ footer {
     .hero-text h3 {
         padding-left: 10px;
     }
-    
+
     #info-section h3, p{
         padding-left: 10px;
         padding-right: 10px;
@@ -611,21 +625,7 @@ footer {
         padding-right: 20px;
         background-color: white;
     }
-    
-    #images {
-        column-count: 2;
-    }
-
-    #image-1, #image-2, #image-3, #image-4, #image-5, #image-6, #image-7, #image-8, #image-9, #image-10, 
-    #image-11, #image-12, #image-13, #image-14, #image-15, #image-16, #image-17, #image-18, #image-19 {
-        display: none;
-    } 
-
-    #image-21, #image-22, #image-23, #image-24, #image-25, #image-26, #image-27, #image-28, #image-29, #image-30, 
-    #image-31, #image-32, #image-33, #image-34, #image-35, #image-36, #image-37, #image-38, #image-39 {
-        display: block;
-    } 
-    
+        
     .footer-spacer {
         margin-bottom: 40px;
     }
@@ -660,15 +660,42 @@ footer {
 
     .visa-item {
         height: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
     }
 
     .language-item {
         height: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+    }
+
+    #gallery-hero-outer {
+        height: 740px;
     }
 
     #gallery-hero-image {
-        background: url("../images/sitting_on_log_mob.jpg") no-repeat top fixed;
+        height: 100%;
+        background: url("../images/twins_on_log_mob.jpg") no-repeat top fixed;
     }
+    
+    #images {
+        column-count: 2;
+    }
+
+    #image-1, #image-2, #image-3, #image-4, #image-5, #image-6, #image-7, #image-8, #image-9, #image-10, 
+    #image-11, #image-12, #image-13, #image-14, #image-15, #image-16, #image-17, #image-18, #image-19 {
+        display: none;
+    } 
+
+    #image-21, #image-22, #image-23, #image-24, #image-25, #image-26, #image-27, #image-28, #image-29, #image-30, 
+    #image-31, #image-32, #image-33, #image-34, #image-35, #image-36, #image-37, #image-38, #image-39 {
+        display: block;
+    } 
 
     #about-hero-image {
         height: 100%;

@@ -218,8 +218,8 @@ on the first attempt.
 
 **Notable bug fixes:**
 
-The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example) which produced unsightly gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
-
+1. The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example) which produced unsightly gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
+2. When testing responsive design for iPhone5 and iPad, it was possible to scroll the screen horizontally a little. Upon inspection, I discovered padding and margins were set in the Bootstrap Grid. By setting these values to 0 in the CSS file, the problem was eradicated.
 
 ## Deployment 
 
