@@ -122,7 +122,7 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 * The home page has a clear call to action button placed stragically below rhetorical questions in order to encourage users to subscribe.
 * The home page incorporates content hinting by partially revealing an element just above the fold.
 * The home page uses a parallax effect to continue the modern feel.
-* The gallery page incorporates a XXXXXXX design (credits in the code) to keep the modern feel.
+* The gallery page incorporates a masonry design to keep the modern feel.
 
 **Future Features to Implement**
 * A Thai version of the entire website accessible via a navbar language option.
@@ -279,7 +279,7 @@ Pushing moves your work from the staging area to your repository.
 ### Code
 
 - Javascript for the scroll up/down navbar was taken from w3schools.com
-- Matt Rudge at Code Institute for the basics behind the Bootstrap Grid and also collapsible navbar.
+- Matt Rudge at Code Institute for the basics behind the Bootstrap Grid, collapsible navbar and icon hover transitioning code from the 'Bootstrap 4 Mini-Project".
 - Brian O'Grady at Code Institute for the 'hero-zoom' idea and code from the 'Love Running' tutorial.
 
 ### Acknowledgements
