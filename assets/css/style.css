@@ -109,6 +109,7 @@ nav {
 /*--Transition code adapted from Bootstrap 4 Mini Project by Matt Rudge at Code Institute--*/
 .navbar-brand {
     font-size: 1.5rem;
+    font-weight: bold;
     letter-spacing: 4px;
     padding-left: 10px;
     color: #212529;
