@@ -84,34 +84,24 @@ nav {
     border: 0;
 }
 
-.navbar-dark .navbar-brand {
+.navbar-light .navbar-brand {
     color: #212529;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link {
+.navbar-light .navbar-nav .active>.nav-link {
     color: #212529;
     font-weight: bold;
 }
 
-/*--Transition code adapted from Bootstrap 4 Mini Project by Matt Rudge at Code Institute--*/
-.navbar-dark .navbar-nav .nav-link {
-    color: #212529;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: whitesmoke;
-}
-
-/*--Transition code adapted from Bootstrap 4 Mini Project by Matt Rudge at Code Institute--*/
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 4px;
     padding-left: 10px;
+}
+
+/*--Transition code adapted from Bootstrap 4 Mini Project by Matt Rudge at Code Institute--*/
+.navbar-light .navbar-nav .nav-link, .navbar-brand {
     color: #212529;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -119,10 +109,9 @@ nav {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.navbar-brand i:hover {
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {
     color: whitesmoke;
 }
-
 
 /*----------INDEX PAGE*/
 
@@ -588,7 +577,7 @@ footer {
         padding-left: 10px;
     }
 
-    #info-section h3, p{
+    #info-section h3, p {
         padding-left: 10px;
         padding-right: 10px;
         text-align: left;
@@ -659,18 +648,14 @@ footer {
         margin-top: 0px;
     }
 
-    .visa-item {
-        height: 100%;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        background-color: white;
+    .visa-item h3, .language-item h3 {
+        padding-left: 15px;
     }
 
-    .language-item {
+    .visa-item, .language-item {
         height: 100%;
         padding-top: 20px;
-        padding-left: 20px;
+        padding-left: 10px;
         padding-right: 20px;
         background-color: white;
     }
@@ -706,5 +691,6 @@ footer {
     #about-hero-outer {
         height: 750px;
     }
+
 }
 
