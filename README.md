@@ -56,6 +56,7 @@ Bilingual Boys is the ideal site for such people because:
 ***
 
 ## UX
+
 **Strategy**
 
 User needs:  visa/immigration advice, basic English language tips/help, general interest in life in the UK.
@@ -100,6 +101,8 @@ for the parallax scrolling (which also match the pages they navigate to) wanted 
 the user picture themselves living in the UK.  The colour scheme was chosen as it fits in with the eponymous boys and blue is also considered a reliable and trustworthy colour
 which we want to reflect in the quality of the website's content.
 
+***
+
 ## Technologies Employed
 
 * HTML
@@ -110,6 +113,8 @@ which we want to reflect in the quality of the website's content.
 * Google fonts
 * Google Chrome Devtools
 * Lighthouse (in Google Chrome Devtools)
+
+***
 
 ## Features
 
@@ -132,6 +137,8 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 * Payment system for English language lessons to enable business objectives to be met.
 * Cookies acceptance screen to conform with GDPR guidelines.
 
+***
+
 ## Technologies Employed
 
 * HTML
@@ -143,6 +150,8 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 * Google Fonts
 * Google Dev Tools 
 * Google Lighthouse
+
+***
 
 ## Testing
 
@@ -225,9 +234,11 @@ on the first attempt.
 1. The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example) which produced unsightly gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
 2. When testing responsive design for iPhone5 and iPad, it was possible to scroll the screen horizontally a little. Upon inspection, I discovered padding and margins were set in the Bootstrap Grid. By setting these values to 0 in the CSS file, the problem was eradicated.
 
+***
+
 ## Deployment 
 
-### How to run this project locally
+**How to run this project locally**
 
 To clone this project into Gitpod you will need:
 * A Github account. [Create a Github account here](https://github.com/)
@@ -241,7 +252,7 @@ Then follow these steps:
 1. Click the green "Gitpod" button located on the right of the respository
 1. This initiates a fresh gitpod workspace allowing you to work locally on the code.
 
-### Adding and Committing files
+**Adding and Committing files**
 
 Adding files to the Github repository is done as follows:
 
@@ -255,7 +266,7 @@ Using the '.' will add all files to the repository staging area. Single files ar
 Be clear and consistent with your commit comments - it's a good idea to use imperatives to explain your changes. 
 Pushing moves your work from the staging area to your repository.
 
-### The project can be deployed by following these steps:
+**The project can be deployed by following these steps:**
 
 1. Log into GitHub
 1. Click "Settings" in the menu above the Repository.
@@ -265,28 +276,28 @@ Pushing moves your work from the staging area to your repository.
 1. If the page refuses to load, scroll down to "template" and select a template underneath "source". 
 1. Scroll back down to the section entitled "GitHub Pages" and the link to the deployed website should be available.
 
-
+***
 
 ## Credits
 
-### Content
+**Content**
 
 - All copy for the entire website (excluding links) was created by myself.
 - All of the English lessons files were created by my wife, Chonchanok Routledge.
 - All of the Bilingual Boys' sister social media sites (Facebook, Instagram and YouTube), were also set up by my wife, Chonchanok Routledge. 
 
-### Media
+**Media**
 
 - The Bilingual Boys 'twins on bikes' logo was designed by Tarinee Insee especially for this website.
 - All photos used in the website were either taken by my wife, Chonchanok Routledge, or myself.
 
-### Code
+**Code**
 
 - Javascript for the scroll up/down navbar was taken from w3schools.com.
 - Matt Rudge at Code Institute for the basics behind the Bootstrap Grid, collapsible navbar and icon hover transitioning code from the 'Bootstrap 4 Mini-Project".
 - Brian O'Grady at Code Institute for the 'hero-zoom' and 'masonry gallery' code, both of which I adapted from the 'Love Running' tutorial.
 
-### Acknowledgements
+**Acknowledgements**
 
 - To Brian Machiara, my Code Institute mentor, for giving me invaluable tips and insight throughout the whole process.
 - Of course to our twin boys, Milan and Ocean, for providing the inspiration to produce the website.
