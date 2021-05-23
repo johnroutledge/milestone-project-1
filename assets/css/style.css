@@ -9,7 +9,7 @@ body {
 
 .bb-hr {
     width: 60%;
-    margin: 20px 0;
+    margin-left: 10px;
     border-color: #61a8f5;
 }
 
@@ -291,11 +291,6 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
-hr {
-    width: 90%;
-    margin: 2px 0;
-}
-
 /*----------GALLERY PAGE*/
 
 #gallery-hero-outer {
@@ -477,11 +472,6 @@ footer {
 }
 
 @media screen and (max-width: 1360px) {
-    .bb-hr {
-        width: 50%;
-        margin-left: 25%;
-    }
-
     .container-fluid {
         padding-left: 0;
         padding-right: 0; 
@@ -504,7 +494,6 @@ footer {
         font-family: 'Open Sans', sans-serif;
         width: 100%;
         top: 80px;
-        text-align: center;
     }
 
     #info-section {
@@ -521,10 +510,6 @@ footer {
         padding: 0;
     }
 
-    .visa-page-image, .language-page-image {
-        height: 100%;
-    }
-
     .resource-overlay {
         padding-top: 20px;
         padding-left: 50px;
@@ -533,7 +518,7 @@ footer {
     }
     
     .item-spacer {
-        margin-top: 0px;
+        margin-top: 70px;
     }
     
     #images{
@@ -545,11 +530,17 @@ footer {
     }
 }
 
-@media screen and (max-width: 700px){
-    .bb-hr {
-        margin-left: 0;
+@media screen and (max-width: 1200px){
+    .item-spacer {
+        margin-top: 0px;
     }
 
+    .visa-page-image, .language-page-image {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
     .nav-link {
         text-align: right;
         margin-right: 10px;
@@ -691,6 +682,5 @@ footer {
     #about-hero-outer {
         height: 750px;
     }
-
 }
 
