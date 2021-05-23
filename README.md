@@ -1,6 +1,8 @@
 # Bilingual Boys
 **User Centric Frontend Development Milestone Project**
 
+![Main Mockup](images/mockup.jpg)
+
 [Link to Live Website](https://johnroutledge.github.io/milestone-project-1/index.html)
 
 [GitHub Repo](https://github.com/johnroutledge/milestone-project-1)
@@ -273,7 +275,7 @@ Pushing moves your work from the staging area to your repository.
 
 ### Media
 
-- The Bilingual Boys 'tinws on bikes' logo was designed by Tarinee Insee especially for this website.
+- The Bilingual Boys 'twins on bikes' logo was designed by Tarinee Insee especially for this website.
 - All photos used in the website were either taken by my wife, Chonchanok Routledge, or myself.
 
 ### Code
