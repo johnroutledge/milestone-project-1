@@ -1,7 +1,7 @@
 # Bilingual Boys
 **User Centric Frontend Development Milestone Project**
 
-![Main Mockup](https://johnroutledge.github.io/milestone-project-1/assets/images/mockup.png "Main Mockup")
+![Main Mockup](https://johnroutledge.github.io/milestone-project-1/assets/images/mockup.jpg "Main Mockup")
 
 [Link to Live Website](https://johnroutledge.github.io/milestone-project-1/index.html)
 
