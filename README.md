@@ -139,8 +139,10 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 * JavaScript
 * Github/Gitpod
 * BootstrapCDN (Bootstrap 4)
-* Google fonts
-
+* Font Awesome
+* Google Fonts
+* Google Dev Tools 
+* Google Lighthouse
 
 ## Testing
 
