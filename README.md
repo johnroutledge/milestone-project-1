@@ -7,6 +7,8 @@
 
 [GitHub Repo](https://github.com/johnroutledge/milestone-project-1)
 
+**Rationale**
+
 There is currently a huge interest in Thailand for parents to advance their children's English ability by teaching them themselves. 
 Even though children study English in school from a young age, the quality of lessons is often lacking. With this in mind, I have 
 developed a website which addresses these needs.
@@ -229,7 +231,7 @@ on the first attempt.
 * Best Practices: These came back as 93% on all pages and so no changes were made.
 * SEO: SEO test figures were 100% on all pages.
 
-**Notable bug fixes:**
+**Notable bug fixes**
 
 1. The 'hero-zoom' when coded originally was set to zoom in (as per Brian O'Grady's tutorial example) which produced unsightly gaps around the border at certain screen resolutions. After trying numerous solutions without success, I found that reversing the zoom (out rather than in) eradicated the problem completely. 
 2. When testing responsive design for iPhone5 and iPad, it was possible to scroll the screen horizontally a little. Upon inspection, I discovered padding and margins were set in the Bootstrap Grid. By setting these values to 0 in the CSS file, the problem was eradicated.
@@ -237,6 +239,16 @@ on the first attempt.
 ***
 
 ## Deployment 
+
+**The project can be deployed by following these steps**
+
+1. Log into GitHub
+1. Click "Settings" in the menu above the Repository.
+1. Scroll down through the settings to the "GitHub Pages" Section.
+1. Underneath "Source", click the dropdown labelled "None" and then select "Master Branch".
+1. The page should refresh automatically and then deploy the website.
+1. If the page refuses to load, scroll down to "template" and select a template underneath "source". 
+1. Scroll back down to the section entitled "GitHub Pages" and the link to the deployed website should be available.
 
 **How to run this project locally**
 
@@ -265,16 +277,6 @@ Type the following into the command line:
 Using the '.' will add all files to the repository staging area. Single files are added using filepath names, ie: about.html or assets/images/hero.png
 Be clear and consistent with your commit comments - it's a good idea to use imperatives to explain your changes. 
 Pushing moves your work from the staging area to your repository.
-
-**The project can be deployed by following these steps:**
-
-1. Log into GitHub
-1. Click "Settings" in the menu above the Repository.
-1. Scroll down through the settings to the "GitHub Pages" Section.
-1. Underneath "Source", click the dropdown labelled "None" and then select "Master Branch".
-1. The page should refresh automatically and then deploy the website.
-1. If the page refuses to load, scroll down to "template" and select a template underneath "source". 
-1. Scroll back down to the section entitled "GitHub Pages" and the link to the deployed website should be available.
 
 ***
 
