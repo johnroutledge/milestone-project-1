@@ -14,7 +14,7 @@ Even though children study English in school from a young age, the quality of le
 developed a website which addresses these needs.
 
 Secondly, there is has been a sharp increase in the rate of mixed-race (Thai/non-Thai) marriages.  This, in turn, has led to an 
-increase in couples/families emigrating to the UK from Thailand.
+increase in couples/families emigrating from Thailand to the UK.
 
 This website is the go-to site for any Thai (or Thai/British) family thinking of moving to the UK. It provides a realistic and up-to-date view
 of what life in the UK is like for Thai families, what the visa requirements and procedures are and also English language lessons for both 
@@ -28,14 +28,14 @@ speakers alike.
 The ideal customer for the website would be:
 * Thai
 * Someone who has children
-* Looking to emigrate to the UK
+* Looking to immigrate to the UK
 * A Thai who wants to improve his/her/their children's English
 
 People visiting this website are looking for:
 * Guidance on the UK immigration process
 * Latest updates on UK visa guidelines
 * Help with their English
-* A real-life story of someone who succesfully has moved to the UK
+* A real-life story of someone who successfully has moved to the UK
 * An insight into UK family life
 
 Bilingual Boys is the ideal site for such people because:
@@ -61,7 +61,7 @@ Bilingual Boys is the ideal site for such people because:
 
 **Strategy**
 
-User needs:  visa/immigration advice, basic English language tips/help, general interest in life in the UK.
+User needs:  visa/immigration advice, English language tips/help, general interest in life in the UK.
 
 Having charted various opportunities/problems with associated perceived values of importance and viability, I decided that 
 the website should focus on three main areas: Visa advice, 'survival' English lessons and a gallery giving a window to 
@@ -98,7 +98,7 @@ By being consistent with the design and simplicity of all pages, it is both pred
 
 **Surface**
 
-The 'Schoolbell' font was chosen to tie in with a young family feel, while the 'open sans' font was chosen to convey a modern and informative tone.  The images chosen 
+The 'School bell' font was chosen to tie in with a young family feel, while the 'open sans' font was chosen to convey a modern and informative tone.  The images chosen 
 for the parallax scrolling (which also match the pages they navigate to) wanted to maintain the family feel and also to help 
 the user picture themselves living in the UK.  The colour scheme was chosen as it fits in with the eponymous boys and blue is also considered a reliable and trustworthy colour
 which we want to reflect in the quality of the website's content.
@@ -123,12 +123,12 @@ which we want to reflect in the quality of the website's content.
 **Implemented**
 * The navbar hides/appears smoothly on scroll down/up (credits in the code) to give a modern feel and also to maximize the amount of screen real estate.
 * The navbar collapses to a burger menu on smaller screens to further increase the available screen area.
-* The same footer appears on every page to maintain consitency and give quick access to relevant social media links.
+* The same footer appears on every page to maintain consistency and give quick access to relevant social media links.
 * The footer also includes a centrally located call-to-action button which encourages people to register for free.
-* All pages are genarally laid out to conform to the F-shape which people usually scan a website (left-righ-left-down): hero image with 
-an overlay containing key imformation overlaid to the left, then more decriptive content at the bottom.
+* All pages are generally laid out to conform to the F-shape which people usually scan a website (left-right-left-down): hero image with 
+an overlay containing key information overlaid to the left, then more descriptive content at the bottom.
 * Overlays contain clear, concise information to avoid cognitive overload.
-* The home page has a clear call to action button placed stragically below rhetorical questions in order to encourage users to subscribe.
+* The home page has a clear call to action button placed strategically below rhetorical questions in order to encourage users to subscribe.
 * The home page incorporates content hinting by partially revealing an element just above the fold.
 * The home page uses a parallax effect to continue the modern feel.
 * The gallery page incorporates a masonry design to keep the modern feel.
@@ -137,7 +137,7 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 * A Thai version of the entire website accessible via a navbar language option.
 * Add a live chat option so that people can get answers to questions quickly.
 * Payment system for English language lessons to enable business objectives to be met.
-* Cookies acceptance screen to conform with GDPR guidelines.
+* Cookies acceptance screen to conform to GDPR guidelines.
 
 ***
 
@@ -176,7 +176,7 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 |  Register button in footer                    | Click          |  Navigate to register modal from all pages                | PASS          |
 |  YouTube icon in footer                       | Click          |  Navigate to Bilingual Boys YouTube page from all pages   | PASS          |
 |  Instagram icon in footer                     | Click          |  Navigate to Bilingual Boys Instagram page from all pages | PASS          |
-|  Facbeook icon in footer                      | Click          |  Navigate to Bilingual Boys Facebook page from all pages  | PASS          |
+|  Facebook icon in footer                      | Click          |  Navigate to Bilingual Boys Facebook page from all pages  | PASS          |
 |  All social media icons in footer             | Hover          |  Fade to different font color on all pages                | PASS          |
 |  Airplane icon on visa page                   | Click          |  Open GOV.UK visa eligibility page in new tab             | PASS          |
 |  123 list icon on visa page                   | Click          |  Open GOV.UK family visa application page in new tab      | PASS          |
@@ -189,7 +189,7 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 |  Gallery page hero image                      | Scroll down/up |  Fixed and behind subsequent sections                     | PASS          |
 |  About page hero image                        | Page load      |  Smooth zoom out                                          | PASS          |
 |  Submit button in register modal              | Click          |  Validate all fields correctly (names & email)            | PASS          |
-|  Submit button in register modal              | Click          |  Post data to Code Instute and open results in new tab    | PASS          |
+|  Submit button in register modal              | Click          |  Post data to Code Institute and open results in new tab    | PASS          |
 |  Bilingual Boys navbar icon                   | Open on mobile |  Disappear from view                                      | PASS          |
 |  Home, Visas, Language, Gallery, About links  | Open on mobile |  Collapse to hamburger icon                               | PASS          |
 |  Media Query mobile screen size               | Resize screen  |  All pages should display correctly on iPhone 5           | PASS          |
@@ -207,13 +207,13 @@ an overlay containing key imformation overlaid to the left, then more decriptive
 3. As a Thai person living in the UK who struggles with English, I want help with the language so that my everyday life is improved.
 * Yes, the links to the PDF tutorials from the language page are quickly accessible.
 4. As someone who has recently moved to the UK with children, I want an idea of what the UK is like for young children so that I can plan activities for them and make their lives more fulfilling.
-* Yes, by looking through the images in the gallery page, they can see varoius types of activites for the family the UK has to offer.
+* Yes, by looking through the images in the gallery page, they can see various types of activities for the family the UK has to offer.
 5. As a Thai person living in Thailand who want to help my children with their English, I want language help specific to parents with children so that they progress quicker at school and have more opportunities later in life. 
 * Yes, the links to helping your children with their English are clear.
 6. As an interested observer, I want to be able to get the latest updates on social media so I can get the latest news and photos.
-* Yes, links to the BIlingual Boys social media pages are available on every page, as is the button so they can register for updates.
+* Yes, links to the Bilingual Boys social media pages are available on every page, as is the button so they can register for updates.
 
-**Testing Browser Compatability**
+**Testing Browser Compatibility**
 
 The website was successfully opened and rendered correctly in Chrome (both desktop and mobile versions), Edge and Safari.
 
@@ -227,7 +227,7 @@ on the first attempt.
 **Testing with Lighthouse in Google Chrome Devtools**
 
 * Performance: On all pages, performance came back initially with a score under 90% due to image file sizes.  Having compressed the Bilingual Boys navbar logo, all pages returned a performance score above 90% with the exception of the gallery page. The performance score of the gallery page was very low (31%) due to the number of images being used. To rectify this all images were resized and compressed which resulted in a better score, but there was still room for improvement. I decided to resize all gallery images for mobile use (<700p pixels) and add CSS code to the media query. Having done this and deleting some unnecessary ones, running the test again resulted in a score of above 90%. 
-* Accesibility: Scores on all pages were above 90%. The one warning which needed to be addresses in terms of accessibility was the contrast between the background and font colours of the navbar and footer.  With the original font colour of white on the current blue background, the contrast was too low for people with limited vision. To rectify this, I changed the font colour to black. This resulted in a much better contrast rating and consequently increased the accessibility score of the website.
+* Accessibility: Scores on all pages were above 90%. The one warning which needed to be addresses in terms of accessibility was the contrast between the background and font colours of the navbar and footer.  With the original font colour of white on the current blue background, the contrast was too low for people with limited vision. To rectify this, I changed the font colour to black. This resulted in a much better contrast rating and consequently increased the accessibility score of the website.
 * Best Practices: These came back as 93% on all pages and so no changes were made.
 * SEO: SEO test figures were 100% on all pages.
 
@@ -257,14 +257,14 @@ To clone this project into Gitpod you will need:
 * Use the Chrome browser 
 
 Then follow these steps:
-1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+1. Install the [Gitpod Browser Extensions for Chrome](https://www.gitpod.io/docs/browser-extension/)
 1. After installation, restart your browser
 1. Log into your [Gitpod](https://gitpod.com) account.
 1. Navigate to the [Project GitHub repository](https://github.com/johnroutledge/milestone-project-1)
-1. Click the green "Gitpod" button located on the right of the respository
+1. Click the green "Gitpod" button located on the right of the repository
 1. This initiates a fresh gitpod workspace allowing you to work locally on the code.
 
-**Adding and Committing files**
+**Adding and committing files**
 
 Adding files to the Github repository is done as follows:
 
@@ -274,7 +274,7 @@ Type the following into the command line:
         git commit -m "this is what I have done"
         git push
 
-Using the '.' will add all files to the repository staging area. Single files are added using filepath names, ie: about.html or assets/images/hero.png
+Using the '.' will add all files to the repository staging area. Single files are added using file path names, i.e.: about.html or assets/images/hero.png.
 Be clear and consistent with your commit comments - it's a good idea to use imperatives to explain your changes. 
 Pushing moves your work from the staging area to your repository.
 
