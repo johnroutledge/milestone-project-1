@@ -296,7 +296,8 @@ Pushing moves your work from the staging area to your repository.
 **Code**
 
 - Javascript for the scroll up/down navbar was taken from w3schools.com.
-- Matt Rudge at Code Institute for the basics behind the Bootstrap Grid, collapsible navbar and icon hover transitioning code from the 'Bootstrap 4 Mini-Project".
+- Matt Rudge at Code Institute for the basics behind the Bootstrap Grid, collapsible navbar and icon hover transitioning code from the 'Bootstrap 4' mini-project.
+ Also for the 'Register Modal' in the 'Whiskey Drop' mini-project.
 - Brian O'Grady at Code Institute for the 'hero-zoom' and 'masonry gallery' code, both of which I adapted from the 'Love Running' tutorial.
 
 **Acknowledgements**

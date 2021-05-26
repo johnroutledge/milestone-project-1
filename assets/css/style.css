@@ -582,11 +582,6 @@ footer {
         text-align: left;
     }
 
-    #info-section p {
-        font-size: 1rem;
-    }
-
-
     .parallax-container {
         width: 100%;
         background: url("../images/lying_on_the_jetty_mob.jpg") no-repeat bottom fixed;
