@@ -568,12 +568,6 @@ footer {
         padding-left: 10px;
     }
 
-    #info-section h3, p {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: left;
-    }
-
     #info-section {
         padding-top: 10px;
         padding-left: 10px;
@@ -581,6 +575,17 @@ footer {
         padding-bottom: 10px;
         text-align: left;
     }
+    
+    #info-section h3, p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+
+    #info-section p {
+        font-size: 1 rem;
+    }
+
 
     .parallax-container {
         width: 100%;
